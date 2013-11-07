@@ -14,6 +14,8 @@ It would for example not show valid BT after initial setup. It will show disconn
  	- Agent Location
 
 - Build the System
-  	- ./gradlew build
+  	- ./gradlew fullInstall
+  	- configure AgentSettings if not pointing to localhost:8080
+  	- ./build/sandbox/startAll.sh
 
 
