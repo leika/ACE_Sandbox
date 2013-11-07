@@ -1,0 +1,49 @@
+apply plugin: "application"
+
+
+// Specify the Application settings
+applicationName = 'SandboxMain'
+mainClassName = "de.appdynamics.sandbox.simpleTest.frontend.Main"
+applicationDefaultJvmArgs = ["-Xms50m","-Xmx50m"]
+
+dependencies{
+    compile project(":API")
+    compile 'com.sun.jersey:jersey-core:1.17.1'
+
+    compile 'com.sun.jersey:jersey-json:1.17.1'
+    compile 'com.sun.jersey:jersey-client:1.17.1'
+
+
+        compile 'org.codehaus.jackson:jackson-core-asl:1.9.13'
+        compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+        compile project(":TCPBackendAPI")
+
+
+}
+
+
+
+task runFrontend(type: JavaExec) {
+    description="Run Frontend TEST"
+    classpath = sourceSets.main.runtimeClasspath
+    jvmArgs   = applicationDefaultJvmArgs
+    main = project.mainClassName
+}
+
+
+task runFrontendInstrumented(type: JavaExec) {
+    description="Run Frontend TEST with Agent"
+    classpath = sourceSets.main.runtimeClasspath
+    jvmArgs   = applicationDefaultJvmArgs
+    jvmArgs += "-javaagent:$appAgentHome/javaagent.jar=uniqueID=FrontendNode"
+    jvmArgs += "-Dappdynamics.agent.applicationName=$appName"
+    jvmArgs += "-Dappdynamics.agent.tierName=Frontend"
+    jvmArgs += "-Dappdynamics.agent.nodeName=Plain"
+
+    main = project.mainClassName
+}
+
+
+build.dependsOn installApp
+
+

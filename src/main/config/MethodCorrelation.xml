@@ -1,0 +1,50 @@
+<activities>
+    <producer>
+        <instrumentation>
+            <class-name>de.appdynamics.sandbox.simpleTest.frontend.jobs.TCPClientSimple</class-name>
+            <method-name>communicate</method-name>
+            <match-type>MATCHES_CLASS</match-type>
+        </instrumentation>
+
+        <identifiers>
+            <identifier name="BackServer">
+                <data-gatherer-type>INVOKED</data-gatherer-type>
+                <getter-chain>this</getter-chain>
+                <user-defined-name>BackServer</user-defined-name>
+                <transformer-type>USER_DEFINED_NAME</transformer-type>
+            </identifier>
+        </identifiers>
+        <correlation>
+            <payload-pointer>
+                <data-gatherer-type>POSITION</data-gatherer-type>
+                <position>0</position>
+                <transformer-type>GETTER_METHODS</transformer-type>
+                <getter-chain>this</getter-chain>
+            </payload-pointer>
+            <payload-operation>
+                <access-type>method</access-type>
+                <param-types>java.lang.String</param-types>
+                <access-method>setCorrelation</access-method>
+            </payload-operation>
+        </correlation>
+    </producer>
+    <consumer>
+        <instrumentation>
+            <class-name>de.appdynamics.ace.tcp.server.ComandExecutor</class-name>
+            <method-name>executeCommand</method-name>
+            <match-type>MATCHES_CLASS</match-type>
+        </instrumentation>
+        <correlation>
+            <payload-pointer>
+                <data-gatherer-type>POSITION</data-gatherer-type>
+                <position>0</position>
+                <transformer-type>GETTER_METHODS</transformer-type>
+                <getter-chain>this</getter-chain>
+            </payload-pointer>
+            <payload-operation>
+                <access-type>method</access-type>
+                <access-method>getCorrelation</access-method>
+            </payload-operation>
+        </correlation>
+    </consumer>
+</activities>
