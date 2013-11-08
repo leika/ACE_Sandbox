@@ -17,7 +17,32 @@ import java.util.logging.Logger;
 public class RandomJobExecutor implements JobExecutor {
 
     private final ArrayList<JobDescription> _jobs;
-    private final long _delay;
+
+    public long getDelay() {
+        return _delay;
+    }
+
+    public void setDelay(long delay) {
+        _delay = delay;
+    }
+
+    public long getVarianz() {
+        return _varianz;
+    }
+
+    public void setVarianz(long varianz) {
+        _varianz = varianz;
+    }
+
+    public int getNumThreads() {
+        return _numThreads;
+    }
+
+    public void setNumThreads(int numThreads) {
+        _numThreads = numThreads;
+    }
+
+    private  long _delay;
     private  long _varianz = 0l;
     private  int _numThreads = 1;
     private int _maxWeight;

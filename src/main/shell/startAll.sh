@@ -20,7 +20,7 @@ export JAVA_OPTS="-javaagent:$DIR/agent/javaagent.jar
 -Dappdynamics.agent.applicationName=$appName
 -Dappdynamics.agent.tierName=Frontend
 -Dappdynamics.agent.nodeName=Client1"
-$DIR/SandboxClient/bin/SandboxMain
+$DIR/SandboxClient/bin/SandboxMain StartNormalSandbox
 
 kill $backend_pid
 

@@ -19,6 +19,8 @@ dependencies{
         compile project(":TCPBackendAPI")
 
 
+    compile 'com.appdynamics.ace.cli:CommandFramework:1.0'
+
 }
 
 
