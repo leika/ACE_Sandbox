@@ -23,23 +23,45 @@ import java.util.TimerTask;
  */
 public class Main {
     public static void main(String[] args) {
-        CommandlineExecution cle = new CommandlineExecution("Sandbox");
-        SandboxExecution c ;
-        cle.addCommand(c = new SandboxExecution("StartNormalSandbox"));
         try {
-            c.addJob(new SimpleBusinessJob("MySimpleBusinessJob",12,80,20));
-            c.addJob(new SimpleBusinessJob("MyComplexTask",12,280,20)).setWeight(7);
-            c.addJob(new SimpleBusinessJob("CRM-FindUser", 12, 280, 20));
-            c.addJob(new SimpleBusinessJob("CRM-Report",12,280,20));
+            CommandlineExecution cle = new CommandlineExecution("Sandbox");
+            cle.setHelpVerboseEnabled(false);
+
+            SandboxExecution c ;
+
+
+            cle.addCommand(c = new SandboxExecution("StartAll"));
+            addBasicLoad(c);
             c.addJob(new TCPClientSimple()).setWeight(100);
             c.addJob(new WebserviceHelloWorld()).setWeight(15);
+
+            cle.addCommand(c = new SandboxExecution("StartSimple"));
+            addBasicLoad(c);
+
+            cle.addCommand(c = new SandboxExecution("StartWeb"));
+            addBasicLoad(c);
+            c.addJob(new TCPClientSimple()).setWeight(100);
+
+            cle.addCommand(c = new SandboxExecution("StartTCP"));
+            addBasicLoad(c);
+
+
+
+            cle.execute(args);
         } catch (Exception e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
 
 
-        cle.execute(args);
 
+
+    }
+
+    private static void addBasicLoad(SandboxExecution c) throws Exception {
+        c.addJob(new SimpleBusinessJob("MySimpleBusinessJob",12,80,20));
+        c.addJob(new SimpleBusinessJob("MyComplexTask",12,280,20)).setWeight(7);
+        c.addJob(new SimpleBusinessJob("CRM-FindUser", 12, 280, 20));
+        c.addJob(new SimpleBusinessJob("CRM-Report",12,280,20));
     }
 
 

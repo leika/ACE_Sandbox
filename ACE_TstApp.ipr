@@ -221,8 +221,13 @@
       <SOURCES />
     </library>
     <library name="CommandFramework-1.0">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="CommandFramework-1.1">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.cli/CommandFramework/1.0/jar/7dedd62e3fe959572175cd29ad536ba532f7a66d/CommandFramework-1.0.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.cli/CommandFramework/1.1/jar/410a92ef6b6948fe433b2a714abe71f78a33ce55/CommandFramework-1.1.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -635,6 +640,11 @@
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.testng/testng/6.8.1/source/a7f60cd283d77e9b6f0269ba53b832752f9e0de5/testng-6.8.1-sources.jar!/" />
       </SOURCES>
+    </library>
+    <library name="unresolved dependency - com.appdynamics.ace.cli CommandFramework 1">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
     </library>
     <library name="woodstox-core-asl-4.1.2">
       <CLASSES>

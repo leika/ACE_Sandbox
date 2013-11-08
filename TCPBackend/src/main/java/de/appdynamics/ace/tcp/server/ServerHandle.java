@@ -8,10 +8,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingDeque;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -42,7 +39,17 @@ public class ServerHandle {
         private SocketThread() {
             BlockingQueue<Runnable> queue = new LinkedBlockingDeque<Runnable>();
 
-            _executor = new ThreadPoolExecutor(5,10,120, TimeUnit.MINUTES,queue);
+            _executor = new ThreadPoolExecutor(5,10,120, TimeUnit.MINUTES,queue, new ThreadFactory() {
+                private int _num=0;
+                @Override
+                public Thread newThread(Runnable r) {
+                    Thread t = new Thread(r);
+                    t.setName("TCPCommandProc_"+(_num++));
+
+                    return t;  //To change body of implemented methods use File | Settings | File Templates.
+                }
+            });
+
 
         }
 

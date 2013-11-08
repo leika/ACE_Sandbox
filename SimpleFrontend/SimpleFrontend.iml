@@ -30,7 +30,7 @@
     <orderEntry type="library" exported="" name="jackson-core-asl-1.9.13" level="project" />
     <orderEntry type="module" module-name="TCPBackendAPI" exported="" />
     <orderEntry type="library" exported="" name="commons-cli-1.2" level="project" />
-    <orderEntry type="library" exported="" name="CommandFramework-1.0" level="project" />
+    <orderEntry type="library" exported="" name="CommandFramework-1.1" level="project" />
   </component>
 </module>
 
