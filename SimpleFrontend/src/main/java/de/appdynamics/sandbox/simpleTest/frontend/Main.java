@@ -5,7 +5,7 @@ import de.appdynamics.ace.framework.jobs.JobDescription;
 import de.appdynamics.ace.framework.jobs.JobResult;
 import de.appdynamics.ace.framework.jobs.ProgressCallback;
 import de.appdynamics.ace.framework.jobs.RandomJobExecutor;
-import de.appdynamics.sandbox.simpleTest.frontend.jobs.SimpleBusinessJob;
+import de.appdynamics.sandbox.simpleTest.frontend.jobs.GoogleBackendCall;import de.appdynamics.sandbox.simpleTest.frontend.jobs.SimpleBusinessJob;
 import de.appdynamics.sandbox.simpleTest.frontend.jobs.TCPClientSimple;
 import de.appdynamics.sandbox.simpleTest.frontend.jobs.WebserviceHelloWorld;
 
@@ -24,6 +24,7 @@ import java.util.TimerTask;
 public class Main {
     public static void main(String[] args) {
         try {
+
             CommandlineExecution cle = new CommandlineExecution("Sandbox");
             cle.setHelpVerboseEnabled(false);
 
@@ -59,6 +60,13 @@ public class Main {
 
     private static void addBasicLoad(SandboxExecution c) throws Exception {
         c.addJob(new SimpleBusinessJob("MySimpleBusinessJob",12,80,20));
+
+        c.addJob(new GoogleBackendCall("FindGoogleBooks","ebooks","de"));
+        c.addJob(new GoogleBackendCall("FindGoogleFacts","Master","de"));
+        c.addJob(new GoogleBackendCall("FindGoogleFacts","Master","en"));
+        c.addJob(new GoogleBackendCall("FindGoogleFacts","Master","com"));
+        c.addJob(new GoogleBackendCall("FindGoogleFacts","Master","fr"));
+
         c.addJob(new SimpleBusinessJob("MyComplexTask",12,280,20)).setWeight(7);
         c.addJob(new SimpleBusinessJob("CRM-FindUser", 12, 280, 20));
         c.addJob(new SimpleBusinessJob("CRM-Report",12,280,20));

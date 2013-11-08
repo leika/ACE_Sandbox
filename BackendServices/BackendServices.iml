@@ -19,7 +19,6 @@
     <orderEntry type="library" exported="" name="jaxb-api-2.2.9" level="project" />
     <orderEntry type="library" exported="" name="jersey-server-1.17.1" level="project" />
     <orderEntry type="library" exported="" name="commons-codec-1.3" level="project" />
-    <orderEntry type="library" exported="" name="controller-api-3.7.10" level="project" />
     <orderEntry type="library" exported="" name="asm-3.1" level="project" />
     <orderEntry type="library" exported="" name="policy-2.3.1" level="project" />
     <orderEntry type="library" exported="" name="management-api-3.0.0-b012" level="project" />

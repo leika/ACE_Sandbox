@@ -228,6 +228,7 @@
     <library name="CommandFramework-1.1">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.cli/CommandFramework/1.1/jar/410a92ef6b6948fe433b2a714abe71f78a33ce55/CommandFramework-1.1.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.cli/CommandFramework/1.1/jar/8588426e19fdf5ba0918f99304e91dc5ee09a010/CommandFramework-1.1.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -237,9 +238,7 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-cli/commons-cli/1.2/jar/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar!/" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-cli/commons-cli/1.2/source/6c5459816530a1962ac18cd315cc775b1b384329/commons-cli-1.2-sources.jar!/" />
-      </SOURCES>
+      <SOURCES />
     </library>
     <library name="commons-codec-1.3">
       <CLASSES>
@@ -248,6 +247,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-codec/commons-codec/1.3/source/ee264b5d7a0f939d5999398c7f1ade031db3fcec/commons-codec-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="commons-logging-1.1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-logging/commons-logging/1.1.1/source/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="controller-api-3.7.10">
@@ -289,6 +297,24 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.hamcrest/hamcrest-core/1.1/source/2ccf1154d1a8936042a8a742dc3e611d02ac7213/hamcrest-core-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="httpclient-4.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpclient/4.0/jar/a76d7fd8033d48b4c67b4ccf159abb080c1059b6/httpclient-4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpclient/4.0/source/b75c1412af4c2ebd060d35062cb0b1ece00c3e60/httpclient-4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="httpcore-4.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpcore/4.0.1/jar/e813b8722c387b22e1adccf7914729db09bcb4a9/httpcore-4.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpcore/4.0.1/source/69febd50593a006a4593ef64a697b14208a55b7b/httpcore-4.0.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="istack-commons-runtime-2.16">
@@ -422,9 +448,7 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.bind/jaxb-impl/2.2.8-b01/jar/53105deea263996ed1511faf6afadb4eeb5a4fbd/jaxb-impl-2.2.8-b01.jar!/" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.bind/jaxb-impl/2.2.8-b01/source/3c54a49b488227dce7a0a3bcafbc5c4441ed27c1/jaxb-impl-2.2.8-b01-sources.jar!/" />
-      </SOURCES>
+      <SOURCES />
     </library>
     <library name="jaxws-api-2.2.11">
       <CLASSES>
@@ -562,6 +586,7 @@
     <library name="rest_api-1.0">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.rest/rest_api/1.0/jar/57fd77f6dd49cb084389fc60ba3c7ad288f7c794/rest_api-1.0.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.rest/rest_api/1.0/jar/d1dbfb315baa049b61b876adc0fda6c14d9f4e44/rest_api-1.0.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -574,6 +599,7 @@
     <library name="rest_util-1.0">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.rest/rest_util/1.0/jar/5b10a4e93b56530341ba155fbaa901403a0e928f/rest_util-1.0.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.rest/rest_util/1.0/jar/adf36fa0179296f543e1f964b72fdcad51c4ee5/rest_util-1.0.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -633,9 +659,7 @@
       </SOURCES>
     </library>
     <library name="testng-6.8.1">
-      <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.testng/testng/6.8.1/jar/8aebea980eee079365df20f0cf7fcac900d50250/testng-6.8.1.jar!/" />
-      </CLASSES>
+      <CLASSES />
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.testng/testng/6.8.1/source/a7f60cd283d77e9b6f0269ba53b832752f9e0de5/testng-6.8.1-sources.jar!/" />

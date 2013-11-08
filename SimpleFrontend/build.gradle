@@ -20,6 +20,7 @@ dependencies{
 
 
     compile 'com.appdynamics.ace.cli:CommandFramework:1.1'
+    compile 'org.apache.httpcomponents:httpclient:4.0'
 
 }
 
