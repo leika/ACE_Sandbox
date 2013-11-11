@@ -39,6 +39,6 @@ public class GoogleBackendCall extends Job {
 
     @Override
     public String getName() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return _name;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }
