@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<activities>
+    <producer>
+        <instrumentation>
+            <class-name>de.appdynamics.sandbox.simpleTest.frontend.jobs.TCPClientSimple</class-name>
+            <method-name>communicate</method-name>
+            <match-type>MATCHES_CLASS</match-type>
+        </instrumentation>
+
+        <identifiers>
+            <identifier name="EX">
+                <data-gatherer-type>INVOKED</data-gatherer-type>
+                <getter-chain>this.getAddress()</getter-chain>
+                 <name>CallBS</name>
+                 <transformer-type>GETTER_METHODS</transformer-type>
+            </identifier>
+        </identifiers>
+        <correlation>
+            <payload-pointer>
+                <data-gatherer-type>POSITION</data-gatherer-type>
+                <position>0</position>
+                <transformer-type>GETTER_METHODS</transformer-type>
+                <getter-chain>this</getter-chain>
+            </payload-pointer>
+            <payload-operation>
+                <access-type>method</access-type>
+                <param-types>java.lang.String</param-types>
+                <access-method>setCorrelation</access-method>
+            </payload-operation>
+        </correlation>
+    </producer>
+
+    <producer>
+        <instrumentation>
+            <class-name>de.appdynamics.ace.tcp.server.BackendConnector</class-name>
+            <method-name>communicate</method-name>
+            <match-type>MATCHES_CLASS</match-type>
+        </instrumentation>
+
+        <identifiers>
+            <identifier name="BE">
+                <name>CallDownstream</name>
+                <data-gatherer-type>INVOKED</data-gatherer-type>
+                <getter-chain>this.getAddress()</getter-chain>
+                <transformer-type>GETTER_METHODS</transformer-type>
+            </identifier>
+        </identifiers>
+        <correlation>
+            <payload-pointer>
+                <data-gatherer-type>POSITION</data-gatherer-type>
+                <position>0</position>
+                <transformer-type>GETTER_METHODS</transformer-type>
+                <getter-chain>this</getter-chain>
+            </payload-pointer>
+            <payload-operation>
+                <access-type>method</access-type>
+                <param-types>java.lang.String</param-types>
+                <access-method>setCorrelation</access-method>
+            </payload-operation>
+        </correlation>
+    </producer>
+    
+    <consumer identify-transaction="true">
+        <instrumentation>
+            <class-name>de.appdynamics.ace.tcp.server.ComandExecutor</class-name>
+            <method-name>executeCommand</method-name>
+            <match-type>MATCHES_CLASS</match-type>
+        </instrumentation>
+        <correlation>
+            <payload-pointer>
+                <data-gatherer-type>POSITION</data-gatherer-type>
+                <position>0</position>
+                <transformer-type>GETTER_METHODS</transformer-type>
+                <getter-chain>this</getter-chain>
+            </payload-pointer>
+            <payload-operation>
+                <access-type>method</access-type>
+                <access-method>getCorrelation</access-method>
+            </payload-operation>
+        </correlation>
+    </consumer> 
+
+</activities>
