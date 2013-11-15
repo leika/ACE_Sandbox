@@ -22,21 +22,24 @@ public class Main {
 
             cle.addCommand(c = new SandboxExecution("StartAll"));
             addBasicLoad(c);
-            c.addJob(new TCPClientSimple("localhost", 8989)).setWeight(100);
-            c.addJob(new WebserviceHelloWorld()).setWeight(15);
+            addTCPFullLoad(c);
+            addWebserviceLoad(c);
+
+
 
             cle.addCommand(c = new SandboxExecution("StartSimple"));
             addBasicLoad(c);
 
             cle.addCommand(c = new SandboxExecution("StartWeb"));
             addBasicLoad(c);
-            c.addJob(new TCPClientSimple("localhost:8989", 8999)).setWeight(100);
 
             cle.addCommand(c = new SandboxExecution("StartTCP"));
             addBasicLoad(c);
-            c.addJob(new TCPClientSimple("localhost",8989)).setWeight(100);
-            c.addJob(new TCPClientSimple("localhost",8999)).setWeight(100);
-            c.addJob(new TCPRedirect("localhost",8999,"BACKEND",8989)).setWeight(100);
+            addTCPFullLoad(c);
+
+            cle.addCommand(c = new SandboxExecution("StartTCPSimple"));
+            addBasicLoad(c);
+            addTCPSimpleLoad(c);
 
 
 
@@ -49,6 +52,22 @@ public class Main {
 
 
 
+    }
+
+    private static void addWebserviceLoad(SandboxExecution c) throws Exception {
+        c.addJob(new WebserviceHelloWorld()).setWeight(15);
+    }
+
+    private static void addTCPSimpleLoad(SandboxExecution c) throws Exception {
+        addTCPFullLoad(c);
+        c.addJob(new TCPClientSimple("localhost", 8989)).setWeight(100);
+        c.addJob(new TCPClientSimple("localhost",8999)).setWeight(100);
+
+    }
+
+    private static void addTCPFullLoad(SandboxExecution c) throws Exception {
+
+        c.addJob(new TCPRedirect("localhost",8999,"BACKEND",8989)).setWeight(100);
     }
 
     private static void addBasicLoad(SandboxExecution c) throws Exception {
@@ -65,5 +84,13 @@ public class Main {
         c.addJob(new SimpleBusinessJob("CRM-Report",12,280,20));
     }
 
+
+    private static void addGoogleLoad(SandboxExecution c) throws Exception {
+        c.addJob(new GoogleBackendCall("FindGoogleBooks","ebooks","de"));
+        c.addJob(new GoogleBackendCall("FindGoogleFacts","Master","de"));
+        c.addJob(new GoogleBackendCall("FindGoogleFacts","Master","en"));
+        c.addJob(new GoogleBackendCall("FindGoogleFacts","Master","com"));
+        c.addJob(new GoogleBackendCall("FindGoogleFacts","Master","fr"));
+    }
 
 }
