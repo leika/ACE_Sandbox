@@ -36,7 +36,7 @@ public class ChannelCommand implements Runnable {
             StringBuffer command = new StringBuffer();
             do {
                 l = r.readLine();
-                System.out.println(":::"+l);
+
                 if (!l.equals("!!!END")) command.append(l).append("\n");
             } while (!l.equals("!!!END"));
 

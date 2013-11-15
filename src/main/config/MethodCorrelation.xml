@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <activities>
     <producer>
         <instrumentation>
@@ -7,11 +8,11 @@
         </instrumentation>
 
         <identifiers>
-            <identifier name="BackServer">
+            <identifier name="EX">
                 <data-gatherer-type>INVOKED</data-gatherer-type>
-                <getter-chain>this</getter-chain>
+                <getter-chain>this.getAddress()</getter-chain>
                 <user-defined-name>BackServer</user-defined-name>
-                <transformer-type>USER_DEFINED_NAME</transformer-type>
+                <transformer-type>GETTER_METHODS</transformer-type>
             </identifier>
         </identifiers>
         <correlation>
@@ -28,7 +29,8 @@
             </payload-operation>
         </correlation>
     </producer>
-    <consumer>
+    
+    <consumer identify-transaction="true">
         <instrumentation>
             <class-name>de.appdynamics.ace.tcp.server.ComandExecutor</class-name>
             <method-name>executeCommand</method-name>
@@ -46,5 +48,6 @@
                 <access-method>getCorrelation</access-method>
             </payload-operation>
         </correlation>
-    </consumer>
+    </consumer> 
+
 </activities>

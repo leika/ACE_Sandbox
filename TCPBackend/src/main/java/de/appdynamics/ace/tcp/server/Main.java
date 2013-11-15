@@ -1,5 +1,7 @@
 package de.appdynamics.ace.tcp.server;
 
+import com.appdynamics.ace.util.cli.api.api.CommandlineExecution;
+
 /**
  * Created with IntelliJ IDEA.
  * User: stefan.marx
@@ -8,8 +10,13 @@ package de.appdynamics.ace.tcp.server;
  * To change this template use File | Settings | File Templates.
  */
 public class Main {
+
     public static void main(String[] args) {
-        new ServerHandle(8989).start();
-        while(true) {}
+
+        CommandlineExecution cle = new CommandlineExecution("TCPBackend");
+
+        cle.addCommand(new StartBackendServer() );
+         cle.execute(args);
+
     }
 }

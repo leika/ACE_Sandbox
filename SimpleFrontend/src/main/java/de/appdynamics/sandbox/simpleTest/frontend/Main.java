@@ -1,18 +1,7 @@
 package de.appdynamics.sandbox.simpleTest.frontend;
 
 import com.appdynamics.ace.util.cli.api.api.CommandlineExecution;
-import de.appdynamics.ace.framework.jobs.JobDescription;
-import de.appdynamics.ace.framework.jobs.JobResult;
-import de.appdynamics.ace.framework.jobs.ProgressCallback;
-import de.appdynamics.ace.framework.jobs.RandomJobExecutor;
-import de.appdynamics.sandbox.simpleTest.frontend.jobs.GoogleBackendCall;import de.appdynamics.sandbox.simpleTest.frontend.jobs.SimpleBusinessJob;
-import de.appdynamics.sandbox.simpleTest.frontend.jobs.TCPClientSimple;
-import de.appdynamics.sandbox.simpleTest.frontend.jobs.WebserviceHelloWorld;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Timer;
-import java.util.TimerTask;
+import de.appdynamics.sandbox.simpleTest.frontend.jobs.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -33,7 +22,7 @@ public class Main {
 
             cle.addCommand(c = new SandboxExecution("StartAll"));
             addBasicLoad(c);
-            c.addJob(new TCPClientSimple()).setWeight(100);
+            c.addJob(new TCPClientSimple("localhost", 8989)).setWeight(100);
             c.addJob(new WebserviceHelloWorld()).setWeight(15);
 
             cle.addCommand(c = new SandboxExecution("StartSimple"));
@@ -41,10 +30,14 @@ public class Main {
 
             cle.addCommand(c = new SandboxExecution("StartWeb"));
             addBasicLoad(c);
-            c.addJob(new TCPClientSimple()).setWeight(100);
+            c.addJob(new TCPClientSimple("localhost:8989", 8999)).setWeight(100);
 
             cle.addCommand(c = new SandboxExecution("StartTCP"));
             addBasicLoad(c);
+            c.addJob(new TCPClientSimple("localhost",8989)).setWeight(100);
+            c.addJob(new TCPClientSimple("localhost",8999)).setWeight(100);
+            c.addJob(new TCPRedirect("localhost",8999,"BACKEND",8989)).setWeight(100);
+
 
 
 

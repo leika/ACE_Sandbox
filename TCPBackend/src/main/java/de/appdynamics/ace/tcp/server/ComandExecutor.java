@@ -25,6 +25,9 @@ public class ComandExecutor {
     private static Result callBusinessLogic(Command c) {
         try {
             Thread.sleep(23);
+            if (c.getCmd().equals("BACKEND")) {
+                new BackendConnector ("localhost",c.getArgs().get("targetPort")).callBackend(c);
+            }
         } catch (InterruptedException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
