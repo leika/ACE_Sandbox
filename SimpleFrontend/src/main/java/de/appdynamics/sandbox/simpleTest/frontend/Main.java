@@ -32,14 +32,17 @@ public class Main {
 
             cle.addCommand(c = new SandboxExecution("StartWeb"));
             addBasicLoad(c);
+            addWebserviceLoad(c);
 
             cle.addCommand(c = new SandboxExecution("StartTCP"));
             addBasicLoad(c);
             addTCPFullLoad(c);
 
+
             cle.addCommand(c = new SandboxExecution("StartTCPSimple"));
             addBasicLoad(c);
             addTCPSimpleLoad(c);
+
 
 
 
@@ -59,14 +62,13 @@ public class Main {
     }
 
     private static void addTCPSimpleLoad(SandboxExecution c) throws Exception {
-        addTCPFullLoad(c);
         c.addJob(new TCPClientSimple("localhost", 8989)).setWeight(100);
         c.addJob(new TCPClientSimple("localhost",8999)).setWeight(100);
 
     }
 
     private static void addTCPFullLoad(SandboxExecution c) throws Exception {
-
+        addTCPSimpleLoad(c);
         c.addJob(new TCPRedirect("localhost",8999,"BACKEND",8989)).setWeight(100);
     }
 
