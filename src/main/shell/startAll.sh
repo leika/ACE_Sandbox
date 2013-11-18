@@ -2,7 +2,17 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 mkdir -p $DIR/logs
 
+
+
 appName="ACESandbox"
+
+
+
+if [ "$1" = "help" ]
+then
+	$DIR/SandboxClient/bin/SandboxMain help
+	exit
+fi
 
 $DIR/startWeb.sh
 
