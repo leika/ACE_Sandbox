@@ -108,6 +108,6 @@ public class TCPClientSimple extends Job {
 
     @Override
     public String getName() {
-        return "TCPSimpleBackend";  //To change body of implemented methods use File | Settings | File Templates.
+        return "TCPSimpleBackend_"+getAddress();  //To change body of implemented methods use File | Settings | File Templates.
     }
 }
