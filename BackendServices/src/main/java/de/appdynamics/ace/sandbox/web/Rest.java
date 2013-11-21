@@ -1,5 +1,7 @@
 package de.appdynamics.ace.sandbox.web;
 
+
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -12,12 +14,18 @@ import javax.ws.rs.PathParam;
  * To change this template use File | Settings | File Templates.
  */
 
+
 @Path("ace")
-public class Rest {
+public class Rest  {
 
     @GET
     @Path("hello/{world}")
-    public String helloWorld(@PathParam("world") String hello) {
+    public String helloWorld(String hello) {
+        try {
+            Thread.sleep(59);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return "Hello "+hello.toUpperCase();
     }
 }
