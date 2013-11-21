@@ -11,6 +11,7 @@ configurations {
 
 dependencies {
     compile  "com.appdynamics.ace.rest:rest_util:1.0"
+    //compile project(":BackendServices_API")
     jetty "org.eclipse.jetty:jetty-distribution:8.1.13.v20130916@zip"
     //jetty "org.eclipse.jetty:jetty-distribution:9.0.4.v20130625@zip"
 }
@@ -35,6 +36,7 @@ task deployToJetty(type: Copy, dependsOn:prepareJetty) {
     from war
     into findJettyDir().absolutePath+"/webapps"
 }
+
 
 
 

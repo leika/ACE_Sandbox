@@ -15,6 +15,6 @@ include 'shared'
 include 'api'
 include 'services:webservice'
 */
-include 'BackendServices','TCPBackend','SimpleFrontend','API',"TCPBackendAPI"
+include 'BackendServices','BackendServices_API','TCPBackend','SimpleFrontend','API',"TCPBackendAPI"
 
 rootProject.name = 'ACE_TstApp'

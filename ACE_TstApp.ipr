@@ -179,12 +179,14 @@
       <module fileurl="file://$PROJECT_DIR$/ACE_TstApp.iml" filepath="$PROJECT_DIR$/ACE_TstApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/API/API.iml" filepath="$PROJECT_DIR$/API/API.iml" />
       <module fileurl="file://$PROJECT_DIR$/BackendServices/BackendServices.iml" filepath="$PROJECT_DIR$/BackendServices/BackendServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackendServices_API/BackendServices_API.iml" filepath="$PROJECT_DIR$/BackendServices_API/BackendServices_API.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleFrontend/SimpleFrontend.iml" filepath="$PROJECT_DIR$/SimpleFrontend/SimpleFrontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/TCPBackend/TCPBackend.iml" filepath="$PROJECT_DIR$/TCPBackend/TCPBackend.iml" />
       <module fileurl="file://$PROJECT_DIR$/TCPBackendAPI.iml" filepath="$PROJECT_DIR$/TCPBackendAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCPBackendAPI/TCPBackendAPI.iml" filepath="$PROJECT_DIR$/TCPBackendAPI/TCPBackendAPI.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">
@@ -204,6 +206,49 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.activation/activation/1.1/source/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="activemq-broker-5.8.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.activemq/activemq-broker/5.8.0/jar/36be03cd67b319eb592c3029df996be2980b12a4/activemq-broker-5.8.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.activemq/activemq-broker/5.8.0/source/41774bf4715e3b979b6c2b43dedfc46208048d5d/activemq-broker-5.8.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="activemq-client-5.8.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.activemq/activemq-client/5.8.0/jar/f6e5f736354e5d5bd870dc540e1caed7b1343fb0/activemq-client-5.8.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.activemq/activemq-client/5.8.0/source/6a5148e80427bc67d6d7a81c41ea8472fa1305c1/activemq-client-5.8.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="activemq-openwire-legacy-5.8.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.activemq/activemq-openwire-legacy/5.8.0/jar/7cb34a2335a3e6d93464d751f709d0dacc190438/activemq-openwire-legacy-5.8.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.activemq/activemq-openwire-legacy/5.8.0/source/b18d38f2ca547056de69dbbcc70978c9b1b7e86e/activemq-openwire-legacy-5.8.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="antlr-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/antlr/antlr/2.7.7/jar/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="aopalliance-1.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/aopalliance/aopalliance/1.0/source/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="asm-3.1">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/asm/asm/3.1/jar/c157def142714c544bdea2e6144645702adf7097/asm-3.1.jar!/" />
@@ -213,6 +258,22 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/asm/asm/3.1/source/2eaa4de56203f433f287a6df5885ef9ad3c5bcae/asm-3.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="asm-3.3.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/asm/asm/3.3.1/jar/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="bcprov-jdk15-1.45">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.bouncycastle/bcprov-jdk15/1.45/jar/7741883cb07b4634e8b5fd3337113b6ea770a9bb/bcprov-jdk15-1.45.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.bouncycastle/bcprov-jdk15/1.45/source/ca6481ed25f1962d2da3275ad1ceab5e829694ab/bcprov-jdk15-1.45-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="bsh-2.0b4">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.beanshell/bsh/2.0b4/jar/a05f0a0feefa8d8467ac80e16e7de071489f0d9c/bsh-2.0b4.jar!/" />
@@ -220,14 +281,8 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="CommandFramework-1.0">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="CommandFramework-1.1">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.cli/CommandFramework/1.1/jar/410a92ef6b6948fe433b2a714abe71f78a33ce55/CommandFramework-1.1.jar!/" />
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.cli/CommandFramework/1.1/jar/8588426e19fdf5ba0918f99304e91dc5ee09a010/CommandFramework-1.1.jar!/" />
       </CLASSES>
       <JAVADOC />
@@ -251,6 +306,42 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-codec/commons-codec/1.3/source/ee264b5d7a0f939d5999398c7f1ade031db3fcec/commons-codec-1.3-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="commons-codec-1.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-codec/commons-codec/1.7/jar/9cd61d269c88f9fb0eb36cea1efcd596ab74772f/commons-codec-1.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-codec/commons-codec/1.7/source/a97e03d6b57d47e9e1dbf7212278069064324ed/commons-codec-1.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="commons-collections-3.2.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-collections/commons-collections/3.2.1/jar/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-collections/commons-collections/3.2.1/source/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="commons-httpclient-3.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-httpclient/commons-httpclient/3.1/jar/964cd74171f427720480efdec40a7c7f6e58426a/commons-httpclient-3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-httpclient/commons-httpclient/3.1/source/c6d6ea83d0cf16d3ed9c1b7e600fa0f60b9d3159/commons-httpclient-3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="commons-lang-2.6">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-lang/commons-lang/2.6/jar/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-lang/commons-lang/2.6/source/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="commons-logging-1.1.1">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar!/" />
@@ -260,12 +351,536 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-logging/commons-logging/1.1.1/source/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="controller-api-3.7.10">
+    <library name="cxf-api-2.7.7">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics/controller-api/3.7.10/jar/c839fe711bf1884e9e4499d891f31db4fb47d0d2/controller-api-3.7.10.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-api/2.7.7/jar/bee4c6bc34465dada4dcc852f7aa7022cea13ae2/cxf-api-2.7.7.jar!/" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-api/2.7.7/source/fe9fb197132b0f45d4133faeee875160c92f45db/cxf-api-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-bundle-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-bundle/2.7.7/bundle/c6f09d3f8543be8bd44e03d554dcb7c75e8ba1bc/cxf-bundle-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-bundle/2.7.7/source/54b2bb0e88795e195b578333d78d24ebc3c1745f/cxf-bundle-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-bindings-coloc-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-coloc/2.7.7/jar/6a8c32693523e2f186e388ab440af9a90493023d/cxf-rt-bindings-coloc-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-coloc/2.7.7/source/7277ab0badf2d592795d3340dda98cb58a43bf99/cxf-rt-bindings-coloc-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-bindings-corba-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-corba/2.7.7/jar/faf8b30f2b95e2a93266776149758c443bd859e0/cxf-rt-bindings-corba-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-corba/2.7.7/source/d363f59a3daeef26e8b5651453c8f4710c4e25df/cxf-rt-bindings-corba-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-bindings-object-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-object/2.7.7/jar/cabd92b99cd8fdcb51a4e47f4095c2f840341c69/cxf-rt-bindings-object-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-object/2.7.7/source/8f616d767a5cc28541beafe52b5cf55d711b3738/cxf-rt-bindings-object-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-bindings-soap-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-soap/2.7.7/jar/270a025ce9876ed02a22c87b9802a2cca3fbc081/cxf-rt-bindings-soap-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-soap/2.7.7/source/ad412a29fac5ec3e5b3bfab5c328c6b03be8394a/cxf-rt-bindings-soap-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-bindings-xml-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-xml/2.7.7/jar/e44c961801a47920160f8ed15dc57c799f49b1a6/cxf-rt-bindings-xml-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-xml/2.7.7/source/8e34d6c958580da13bf46a345f5c927145e1743f/cxf-rt-bindings-xml-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-core-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-core/2.7.7/jar/54f6d10b44587eb79d4995198eecc052903bd3cb/cxf-rt-core-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-core/2.7.7/source/3fa38cbf4b9e52d175a61e1112f0f755dda2d232/cxf-rt-core-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-databinding-aegis-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-databinding-aegis/2.7.7/jar/12f305ebd671d151929caaeb443232e97d4848d9/cxf-rt-databinding-aegis-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-databinding-aegis/2.7.7/source/8483e91ffa44a6c6ed83a170c7cae1bbeed1241c/cxf-rt-databinding-aegis-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-databinding-jaxb-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-databinding-jaxb/2.7.7/jar/99966646c6218b89a91295646a151419f34f05f6/cxf-rt-databinding-jaxb-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-databinding-jaxb/2.7.7/source/5843383e468f5639a1ff2a337fe6d0be5f048873/cxf-rt-databinding-jaxb-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-databinding-xmlbeans-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-databinding-xmlbeans/2.7.7/jar/5069c011fbd050b2d5d8fb2866f1c9adf2b697c6/cxf-rt-databinding-xmlbeans-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-databinding-xmlbeans/2.7.7/source/c0cae42615eb14c413d8cc79c94440743f6a038b/cxf-rt-databinding-xmlbeans-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-features-clustering-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-features-clustering/2.7.7/jar/6ad0e3c099f5adb5678979ef07651ecad317e74f/cxf-rt-features-clustering-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-features-clustering/2.7.7/source/998aefda81cb96aa3c2a93780802d4e7ab302605/cxf-rt-features-clustering-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-frontend-jaxrs-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-jaxrs/2.7.7/jar/1e1e3ad765196920fe632d09cb9f60a5ce713a15/cxf-rt-frontend-jaxrs-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-jaxrs/2.7.7/source/fc5cb771df900cc37984334a609ee4a67992d5f/cxf-rt-frontend-jaxrs-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-frontend-jaxws-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-jaxws/2.7.7/jar/c12efe119bd15b3ab75e5f8b2d4284318bc181a3/cxf-rt-frontend-jaxws-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-jaxws/2.7.7/source/17eceb279a790f96ff409033521ba8e21521d493/cxf-rt-frontend-jaxws-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-frontend-js-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-js/2.7.7/jar/a51fa4d28b09c735a8254c9af3b19ea82a6e70b6/cxf-rt-frontend-js-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-js/2.7.7/source/5d9f04dd7fb9bb30bb37672361e5f122533f6093/cxf-rt-frontend-js-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-frontend-simple-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-simple/2.7.7/jar/50b328e98e8bb5cca05c9df85babd2e4f442b892/cxf-rt-frontend-simple-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-simple/2.7.7/source/e860280473f215037b84e9c755120a9a8dc529c6/cxf-rt-frontend-simple-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-javascript-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-javascript/2.7.7/jar/27a5a7ea11e2ba3d15a742a0830177bc126b3a08/cxf-rt-javascript-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-javascript/2.7.7/source/60233aced165c7106dde826c556d6e670427a672/cxf-rt-javascript-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-management-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-management/2.7.7/jar/b6dbbc4dc022cbe97eef770472afd0129bb80163/cxf-rt-management-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-management/2.7.7/source/2742a32af5bce93af9353a75bb79f2ffd4b5761a/cxf-rt-management-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-rs-extension-providers-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-extension-providers/2.7.7/jar/c564c682e4aef6366b51be962e16eb76742b9472/cxf-rt-rs-extension-providers-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-extension-providers/2.7.7/source/9407fa0d086fe9a250e21945c76f821292f58fef/cxf-rt-rs-extension-providers-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-rs-extension-search-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-extension-search/2.7.7/jar/57609d679bd7ee5ab6c87d0e5db989b4b3078203/cxf-rt-rs-extension-search-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-extension-search/2.7.7/source/a5c541d93b39fe7a0b79fa4a33f7666c40641894/cxf-rt-rs-extension-search-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-rs-security-cors-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-cors/2.7.7/jar/c2a94a5e0a724f2753ae23a40eabd61cc07d281d/cxf-rt-rs-security-cors-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-cors/2.7.7/source/9cee3317a015ff49da57f887d35d3b0b9f368efe/cxf-rt-rs-security-cors-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-rs-security-oauth-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-oauth/2.7.7/jar/fcd15ba016c99a56fdbef5b7a1516f5de85ac05/cxf-rt-rs-security-oauth-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-oauth/2.7.7/source/b458220567717c59435f7f2d73ab47935c221aae/cxf-rt-rs-security-oauth-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-rs-security-oauth2-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-oauth2/2.7.7/jar/8714a440ba5c7c358270c695f2b4ee2dbe3dbc9a/cxf-rt-rs-security-oauth2-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-oauth2/2.7.7/source/39f9efe76147868066dd0c44b89a492bb051e4e/cxf-rt-rs-security-oauth2-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-rs-security-sso-saml-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-sso-saml/2.7.7/jar/a201ac18fef519f225fa089eed717354fbbb2c2e/cxf-rt-rs-security-sso-saml-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-sso-saml/2.7.7/source/c9ba93b1559d60005710407a1680b3d268deb066/cxf-rt-rs-security-sso-saml-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-rs-security-xml-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-xml/2.7.7/jar/ec7d1c3d895eda96e3221de0fe2d6115d87c0254/cxf-rt-rs-security-xml-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-rs-security-xml/2.7.7/source/1656f2ff25a499d8a5304e532a361205090f2dcf/cxf-rt-rs-security-xml-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-transports-http-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-http/2.7.7/jar/5d5f5fdd1c19b330d08cb8738873be1a6eb83dbc/cxf-rt-transports-http-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-http/2.7.7/source/84982ceaa2918ffcff89851c009ced1132cdd379/cxf-rt-transports-http-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-transports-http-hc-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-http-hc/2.7.7/jar/ff69035f47ca96e32b71734dc4d50e791be3ca09/cxf-rt-transports-http-hc-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-http-hc/2.7.7/source/d882024f46c410dbfc92f2eadfdb79b15f270519/cxf-rt-transports-http-hc-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-transports-http-jetty-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-http-jetty/2.7.7/jar/1f7efc9514c981447ca9fd5b94e92e111c832e74/cxf-rt-transports-http-jetty-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-http-jetty/2.7.7/source/a33063c84e45fc51b4ef59a6497e10fafbfab152/cxf-rt-transports-http-jetty-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-transports-jms-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-jms/2.7.7/jar/baaa16dfc293dd89eefa0950c3a605132b1ce7b9/cxf-rt-transports-jms-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-jms/2.7.7/source/6d8c234d9ac6748ec4f3f0ab3ae5bc9967481cf6/cxf-rt-transports-jms-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-transports-local-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-local/2.7.7/jar/f9ac087c7d8b8c5c3f3fb5d3d70a271134ee348b/cxf-rt-transports-local-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-local/2.7.7/source/b9a486ae61b1c2ec8d2f8b0a764f6409938dac62/cxf-rt-transports-local-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-transports-udp-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-udp/2.7.7/jar/9ba058d564244483ad861f8c0871fa064ee76cd2/cxf-rt-transports-udp-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-udp/2.7.7/source/8ba79660b740734ac19274bf948c24ae107d8122/cxf-rt-transports-udp-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-ws-addr-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-addr/2.7.7/jar/317668cb3ad97bd5478cfb72052b61d1f1ff4ee5/cxf-rt-ws-addr-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-addr/2.7.7/source/162e4f5515d20593a830cc6f23297afc5c3a4389/cxf-rt-ws-addr-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-ws-mex-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-mex/2.7.7/jar/8493f28e1baaeab6beaf2a4cec4aaca892e22a4d/cxf-rt-ws-mex-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-mex/2.7.7/source/e744d9152303a248e3a5fe47414905e2821e60ea/cxf-rt-ws-mex-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-ws-policy-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-policy/2.7.7/jar/26a2f0936fb9ee2e8a748dfbe6d14a67447e8881/cxf-rt-ws-policy-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-policy/2.7.7/source/c0a48fbbaa02f3a366523ec2d190c4c7c42edcbd/cxf-rt-ws-policy-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-ws-rm-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-rm/2.7.7/jar/e2992bfd6eb08403177d420f5cfb793711dbe9c1/cxf-rt-ws-rm-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-rm/2.7.7/source/bcd834de0ceda1523643ac969e4d41fe0bf6f919/cxf-rt-ws-rm-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-rt-ws-security-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-security/2.7.7/jar/f3d7a272078ba11e6775215863c3a4f2dec0344/cxf-rt-ws-security-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-security/2.7.7/source/aff8d1e1a9031b70b9511b63cc1d6a8fa234e5bd/cxf-rt-ws-security-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-services-sts-core-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.sts/cxf-services-sts-core/2.7.7/bundle/c5885cee9f395463eec1d19be667ecd2879664f4/cxf-services-sts-core-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.sts/cxf-services-sts-core/2.7.7/source/2b7b3a73df2a9868fc8e37f4df8d5949fa523ca6/cxf-services-sts-core-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-services-ws-discovery-api-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.ws-discovery/cxf-services-ws-discovery-api/2.7.7/jar/569b1d6ad7132db994befe9da40591b638762468/cxf-services-ws-discovery-api-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.ws-discovery/cxf-services-ws-discovery-api/2.7.7/source/5dca3a69ae2446353de41f68b5b4b0a61fe390e7/cxf-services-ws-discovery-api-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-services-ws-discovery-service-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.ws-discovery/cxf-services-ws-discovery-service/2.7.7/jar/ddd015678dcf8b1befc8eb603791cd1cd24d9b87/cxf-services-ws-discovery-service-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.ws-discovery/cxf-services-ws-discovery-service/2.7.7/source/7fd35be3c949b3c221fbe68a93dcc7d9351ceeb0/cxf-services-ws-discovery-service-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-services-wsn-api-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.wsn/cxf-services-wsn-api/2.7.7/bundle/e84abda7176b6c3f3cc64eb3dddae973820a1d5e/cxf-services-wsn-api-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.wsn/cxf-services-wsn-api/2.7.7/source/52a86c3050358f9f654ecc6f329ddec4c92ad095/cxf-services-wsn-api-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-services-wsn-core-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.wsn/cxf-services-wsn-core/2.7.7/bundle/ff2ae732a8b6dcadfff67d3837285d7aeaee4317/cxf-services-wsn-core-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.services.wsn/cxf-services-wsn-core/2.7.7/source/fc1616031670fae48923b677632c85999c695b0a/cxf-services-wsn-core-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-common-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-common/2.7.7/jar/c6e45d810d5b6441b0191ec11dddde6934717878/cxf-tools-common-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-common/2.7.7/source/72fb4ab8ef25b5b726278d3e6be776bae7d52376/cxf-tools-common-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-corba-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-corba/2.7.7/jar/9ae19d91b58637d8b9a3c59816c2603d00fd8acd/cxf-tools-corba-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-corba/2.7.7/source/88759ecb02e9fb6af104ce1c69d1e76195d500d2/cxf-tools-corba-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-java2ws-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-java2ws/2.7.7/jar/cff7974450cc6ec599c5d6235efbb4939b17aadb/cxf-tools-java2ws-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-java2ws/2.7.7/source/98d11dc2dca42819a87f502ab39c91eca8730ee4/cxf-tools-java2ws-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-misctools-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-misctools/2.7.7/jar/8a6f89ee0248b93e4ef0c18abcfaa89e00f6b221/cxf-tools-misctools-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-misctools/2.7.7/source/b68a5652ea2c60061fc7af74f3afaacac713f491/cxf-tools-misctools-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-validator-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-validator/2.7.7/jar/7c13facb629e4a5afda51075cdcde2d1c9b40809/cxf-tools-validator-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-validator/2.7.7/source/407bdb0000c9b8f7aef8e20966bac47b44ab5007/cxf-tools-validator-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-wadlto-jaxrs-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wadlto-jaxrs/2.7.7/jar/3041d2a253117c94fc8345011913160bca48b9b5/cxf-tools-wadlto-jaxrs-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wadlto-jaxrs/2.7.7/source/778938e195e37d1ea44c0786b3a7568190aab414/cxf-tools-wadlto-jaxrs-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-wsdlto-core-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-core/2.7.7/jar/2de8d324d2b09dcf741fee6b5b6d2cabe90eb47f/cxf-tools-wsdlto-core-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-core/2.7.7/source/642f4b56f4ed340b811e9e08316d5057296cc2b7/cxf-tools-wsdlto-core-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-wsdlto-databinding-jaxb-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-databinding-jaxb/2.7.7/jar/c695daf10dfed330dfd26b6374da20d36b887ff8/cxf-tools-wsdlto-databinding-jaxb-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-databinding-jaxb/2.7.7/source/cb32796c73f334b309a57815794c03de02839fb6/cxf-tools-wsdlto-databinding-jaxb-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-wsdlto-frontend-javascript-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-frontend-javascript/2.7.7/jar/68d1d257a858413a68e7c86ff5522975381c5d75/cxf-tools-wsdlto-frontend-javascript-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-frontend-javascript/2.7.7/source/ca58dc371df9e6b6052758c930ad6d70b42973b2/cxf-tools-wsdlto-frontend-javascript-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-tools-wsdlto-frontend-jaxws-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-frontend-jaxws/2.7.7/jar/3292b6e5b9d21cafeb87b67d0e93eb2765c9fe7d/cxf-tools-wsdlto-frontend-jaxws-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-frontend-jaxws/2.7.7/source/6377824355314bbd6e4626ae11cebe12ea4e0175/cxf-tools-wsdlto-frontend-jaxws-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-wstx-msv-validation-2.7.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-wstx-msv-validation/2.7.7/jar/5bf5f7923caaa21dacae068c3afb0456567e1817/cxf-wstx-msv-validation-2.7.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-wstx-msv-validation/2.7.7/source/67d17433481ff26c798d0a134dd7f1ca1c077bf7/cxf-wstx-msv-validation-2.7.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-xjc-boolean-2.6.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjcplugins/cxf-xjc-boolean/2.6.2/jar/a2d2640121150996699618851e8616907d261234/cxf-xjc-boolean-2.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjcplugins/cxf-xjc-boolean/2.6.2/source/1c6e9705ffe675eedd710982c568f7eda7340204/cxf-xjc-boolean-2.6.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-xjc-bug671-2.6.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjcplugins/cxf-xjc-bug671/2.6.2/jar/437f0e49c01e31dc771a1d3fb22737e1725613f7/cxf-xjc-bug671-2.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjcplugins/cxf-xjc-bug671/2.6.2/source/bdc816b3f11c712be83726f964e7a525227e4ad2/cxf-xjc-bug671-2.6.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-xjc-dv-2.6.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjcplugins/cxf-xjc-dv/2.6.2/jar/7a6244b379ab6aa087c0f3e27f3f8d4b9551b23b/cxf-xjc-dv-2.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjcplugins/cxf-xjc-dv/2.6.2/source/b1dca05b166cd9043c54ca5ed0ffc6bfd58dd558/cxf-xjc-dv-2.6.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-xjc-runtime-2.6.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjc-utils/cxf-xjc-runtime/2.6.2/bundle/75f18daff80db99d2f94296ca40c73cfbafc5167/cxf-xjc-runtime-2.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjc-utils/cxf-xjc-runtime/2.6.2/source/ea14344138827731b86d1a477e8fd5bae4aea9af/cxf-xjc-runtime-2.6.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="cxf-xjc-ts-2.6.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjcplugins/cxf-xjc-ts/2.6.2/jar/d71f2b09d607227f60c5ac6a254b6c0f7c16162e/cxf-xjc-ts-2.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf.xjcplugins/cxf-xjc-ts/2.6.2/source/2e349bbf33ac80d2d24560f46cddb9e1b8f29f8e/cxf-xjc-ts-2.6.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="ehcache-core-2.5.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.sf.ehcache/ehcache-core/2.5.1/jar/574be2dda111c3c05d4684e279e9e973fbdc4967/ehcache-core-2.5.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.sf.ehcache/ehcache-core/2.5.1/source/1123091f51bd5a79260677305583e25f8e5a2adc/ehcache-core-2.5.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="FastInfoset-1.2.12">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.fastinfoset/FastInfoset/1.2.12/jar/e8c1c096162a146c2d84135c5036edf54c1b1d38/FastInfoset-1.2.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.fastinfoset/FastInfoset/1.2.12/source/98ddd31ad3dddb3ee2f43e3e6b7b39d0c5ccdea5/FastInfoset-1.2.12-sources.jar!/" />
+      </SOURCES>
     </library>
     <library name="FastInfoset-1.2.13">
       <CLASSES>
@@ -274,6 +889,51 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.fastinfoset/FastInfoset/1.2.13/source/7e43a54348e59360ebcaa73d34f0ecb122f1c741/FastInfoset-1.2.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="geronimo-j2ee-management_1.1_spec-1.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec/1.0.1/jar/5372615b0c04c1913c95c34a0414cef720ca2855/geronimo-j2ee-management_1.1_spec-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec/1.0.1/source/3d3b34584f4137c4ab7db496bceb5d75704f7354/geronimo-j2ee-management_1.1_spec-1.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="geronimo-javamail_1.4_spec-1.7.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-javamail_1.4_spec/1.7.1/bundle/43ad4090b1a07a11c82ac40c01fc4e2fbad20013/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-javamail_1.4_spec/1.7.1/source/8c671a08f1a98697e26419b69451430e153193c0/geronimo-javamail_1.4_spec-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="geronimo-jaxws_2.2_spec-1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/bundle/90745e1423874010d561588c944efeb9552a0091/geronimo-jaxws_2.2_spec-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/source/eb2ca56c38011b813a9328143bb1ff2b822a8844/geronimo-jaxws_2.2_spec-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="geronimo-jms_1.1_spec-1.1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-jms_1.1_spec/1.1.1/jar/c872b46c601d8dc03633288b81269f9e42762cea/geronimo-jms_1.1_spec-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-jms_1.1_spec/1.1.1/source/c45b919f5434f9c33c546af9e6dfc5e1466b4b3e/geronimo-jms_1.1_spec-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="geronimo-servlet_3.0_spec-1.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-servlet_3.0_spec/1.0/bundle/d45e479fd200236c71182c5f6b6077a5fb53f89/geronimo-servlet_3.0_spec-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-servlet_3.0_spec/1.0/source/5fd743c176042c0c2f2775510719b623956bed83/geronimo-servlet_3.0_spec-1.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="gmbal-api-only-3.1.0-b001">
@@ -301,23 +961,57 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.hamcrest/hamcrest-core/1.1/source/2ccf1154d1a8936042a8a742dc3e611d02ac7213/hamcrest-core-1.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="httpclient-4.0">
+    <library name="hawtbuf-1.9">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpclient/4.0/jar/a76d7fd8033d48b4c67b4ccf159abb080c1059b6/httpclient-4.0.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.fusesource.hawtbuf/hawtbuf/1.9/bundle/4a42b835d1df77db8c9a144a11ebb4600a372f5f/hawtbuf-1.9.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpclient/4.0/source/b75c1412af4c2ebd060d35062cb0b1ece00c3e60/httpclient-4.0-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.fusesource.hawtbuf/hawtbuf/1.9/source/6cb00b387469d1867bbb866d60fa099ad760138a/hawtbuf-1.9-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="httpcore-4.0.1">
+    <library name="httpasyncclient-4.0-beta3">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpcore/4.0.1/jar/e813b8722c387b22e1adccf7914729db09bcb4a9/httpcore-4.0.1.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpasyncclient/4.0-beta3/jar/c841ffe78b77d6ca1fd38f744e2b107b5f6f74d6/httpasyncclient-4.0-beta3.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpcore/4.0.1/source/69febd50593a006a4593ef64a697b14208a55b7b/httpcore-4.0.1-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpasyncclient/4.0-beta3/source/2d377937e46756934b5de4f10179aa90b7377ba0/httpasyncclient-4.0-beta3-sources.jar!/" />
       </SOURCES>
+    </library>
+    <library name="httpclient-4.2.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpclient/4.2.5/jar/666e26e76f2e87d84e4f16acb546481ae1b8e9a6/httpclient-4.2.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpclient/4.2.5/source/55d345272944d7e8dace47925336a3764ee0e24b/httpclient-4.2.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="httpcore-4.2.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpcore/4.2.4/jar/3b7f38df6de5dd8b500e602ae8c2dd5ee446f883/httpcore-4.2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpcore/4.2.4/source/c3ffe3a73348645042fb0b06303b6a3de194494e/httpcore-4.2.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="httpcore-nio-4.2.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpcore-nio/4.2.4/jar/78afeee7048b6f541f0b2290a926b2af5768410f/httpcore-nio-4.2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.httpcomponents/httpcore-nio/4.2.4/source/b21b69044df67888990e5ef60a3d51afc743be65/httpcore-nio-4.2.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="isorelax-20030108">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/isorelax/isorelax/20030108/jar/b21859c352bd959ea22d06b2fe8c93b2e24531b9/isorelax-20030108.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
     <library name="istack-commons-runtime-2.16">
       <CLASSES>
@@ -391,6 +1085,15 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.annotation/javax.annotation-api/1.2-b03/source/1aefd5a3e973e0cc9065a78b122754d9fde2992f/javax.annotation-api-1.2-b03-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="javax.servlet-3.0.0.v201112011016">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/orbit/aaaa85845fb5c59da00193f06b8e5278d8bf3f8/javax.servlet-3.0.0.v201112011016.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/source/15c914135cf30177b83c321250c458396289cd37/javax.servlet-3.0.0.v201112011016-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="javax.servlet-api-3.0.1">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.servlet/javax.servlet-api/3.0.1/jar/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar!/" />
@@ -398,6 +1101,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.servlet/javax.servlet-api/3.0.1/source/1952f91d84016a39e31346c9d18bd8c9c4a128a/javax.servlet-api-3.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="javax.ws.rs-api-2.0-m10">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.ws.rs/javax.ws.rs-api/2.0-m10/jar/74705b1b0c448f88cff1a46f431b70b23588e8f4/javax.ws.rs-api-2.0-m10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.ws.rs/javax.ws.rs-api/2.0-m10/source/63116d0a7e86b9c8c8aade325d98ce23cac16015/javax.ws.rs-api-2.0-m10-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="javax.xml.soap-api-1.3.6">
@@ -454,6 +1166,15 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.bind/jaxb-impl/2.2.8-b01/source/3c54a49b488227dce7a0a3bcafbc5c4441ed27c1/jaxb-impl-2.2.8-b01-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="jaxb-xjc-2.1.13">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.bind/jaxb-xjc/2.1.13/jar/a953200fed20f683c09e8f419c2babb1d89d82a/jaxb-xjc-2.1.13.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.bind/jaxb-xjc/2.1.13/source/426763da7259d6cf6cf0a5831f7c1d7cd3b97b4/jaxb-xjc-2.1.13-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="jaxws-api-2.2.11">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.xml.ws/jaxws-api/2.2.11/jar/c2281ca3a7f5ec3324cbc8c6cf2671c00db7cba3/jaxws-api-2.2.11.jar!/" />
@@ -470,6 +1191,24 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.ws/jaxws-rt/2.2.9-b14002/source/ab3d1f16aac167284ae7d4ee4889335843625ac6/jaxws-rt-2.2.9-b14002-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="jcip-annotations-1.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.jcip/jcip-annotations/1.0/jar/afba4942caaeaf46aab0b976afd57cc7c181467e/jcip-annotations-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.jcip/jcip-annotations/1.0/source/d853625d8001c00d40abed553e670279504699f9/jcip-annotations-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="jcl-over-slf4j-1.6.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/jcl-over-slf4j/1.6.1/jar/99c61095a14dfc9e47a086068033c286bf236475/jcl-over-slf4j-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/jcl-over-slf4j/1.6.1/source/dbc80dfd897e3bc528199ff97e29e44a0ac4b462/jcl-over-slf4j-1.6.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="jcommander-1.27">
@@ -535,6 +1274,87 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.jettison/jettison/1.1/source/6e5ebf802c909bcef2d7e3275c64b474467353b5/jettison-1.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="jettison-1.3.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.jettison/jettison/1.3.4/bundle/3c08d8f699432e23023080cdc8b4073132473dc8/jettison-1.3.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.jettison/jettison/1.3.4/source/532374dd674f3b7935460ff31d2531f04a76cee6/jettison-1.3.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="jetty-continuation-8.1.12.v20130726">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-continuation/8.1.12.v20130726/jar/56983c28a934cb2b8cdfcf3a3fa9b28320f7ac7d/jetty-continuation-8.1.12.v20130726.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-continuation/8.1.12.v20130726/source/fe73da392c26fc11778d233424834583a257e33c/jetty-continuation-8.1.12.v20130726-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="jetty-http-8.1.12.v20130726">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-http/8.1.12.v20130726/jar/530b3a21d71ac69279bee129869d7eac031e3533/jetty-http-8.1.12.v20130726.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-http/8.1.12.v20130726/source/6501806c29564cea6a6f6f8c725f972905bc8bb0/jetty-http-8.1.12.v20130726-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="jetty-io-8.1.12.v20130726">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-io/8.1.12.v20130726/jar/859ad5da478e34bca888812a81e12cd4dcdef6fd/jetty-io-8.1.12.v20130726.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-io/8.1.12.v20130726/source/f53e6c374fc35805cc90ea419137c93280288680/jetty-io-8.1.12.v20130726-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="jetty-security-8.1.12.v20130726">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-security/8.1.12.v20130726/jar/3e5ba848730a8ca6dc7ee562ebafbb44f49d8abd/jetty-security-8.1.12.v20130726.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-security/8.1.12.v20130726/source/b854847af05a4e41efd97907c0d77505f2cd32fb/jetty-security-8.1.12.v20130726-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="jetty-server-8.1.12.v20130726">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-server/8.1.12.v20130726/jar/e8d89c85edd00680a7b30bf219e6dba181dc4aa1/jetty-server-8.1.12.v20130726.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-server/8.1.12.v20130726/source/c44ada0510dae0cf9e41ab744093520c4173fd6a/jetty-server-8.1.12.v20130726-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="jetty-util-8.1.12.v20130726">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-util/8.1.12.v20130726/jar/255cb3b9a415146252796915d8dc3c3745ff1eb6/jetty-util-8.1.12.v20130726.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.eclipse.jetty/jetty-util/8.1.12.v20130726/source/68fdb12d9ec9ce33a35f8ff899d795144237c6a9/jetty-util-8.1.12.v20130726-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="joda-time-1.6.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/joda-time/joda-time/1.6.2/jar/7a0525fe460ef5b99ea3152e6d2c0e4f24f04c51/joda-time-1.6.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/joda-time/joda-time/1.6.2/source/462b1672787aa4aabf1dab6f9752c2cc14bfd652/joda-time-1.6.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="js-1.7R2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/rhino/js/1.7R2/jar/b95d5212ff4cea92cee1c3c6fa50aa82c9d4905b/js-1.7R2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/rhino/js/1.7R2/source/88a99147faee9b49f40cb4f27d4628d688be9af3/js-1.7R2-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="jsr181-api-1.0-MR1">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.jws/jsr181-api/1.0-MR1/jar/401cc1d0e5f0d8f4d0532a54928ceaa27ec21258/jsr181-api-1.0-MR1.jar!/" />
@@ -544,6 +1364,15 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.jws/jsr181-api/1.0-MR1/source/91949f9602ca47ff97f3b269076335a615e0d5e3/jsr181-api-1.0-MR1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="jul-to-slf4j-1.6.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/jul-to-slf4j/1.6.1/jar/c5300fc91f48697ae3f0d8ec8eac7a43a9dd03f7/jul-to-slf4j-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/jul-to-slf4j/1.6.1/source/b6330c9f0b8054e456ac0e84bb5dac406231408e/jul-to-slf4j-1.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="junit-4.10">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/junit/junit/4.10/jar/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar!/" />
@@ -551,6 +1380,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/junit/junit/4.10/source/6c98d6766e72d5575f96c9479d1c1d3b865c6e25/junit-4.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="log4j-over-slf4j-1.6.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/log4j-over-slf4j/1.6.1/jar/2083595b098f183da3c0cabf2819eb083a510a9e/log4j-over-slf4j-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/log4j-over-slf4j/1.6.1/source/d31d2292136f33b4bfb01ab3949f47c55802ade4/log4j-over-slf4j-1.6.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="management-api-3.0.0-b012">
@@ -569,6 +1407,78 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.jvnet.mimepull/mimepull/1.9.3/source/8abb9e0b24317725c51ac905d1face261054fceb/mimepull-1.9.3-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="mina-core-2.0.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.mina/mina-core/2.0.7/bundle/c878e2aa82de748474a624ec3933e4604e446dec/mina-core-2.0.7.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.mina/mina-core/2.0.7/source/42097d3346d4fa5d694f2ed6e87a4bf7689cff0e/mina-core-2.0.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="msv-core-2011.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.java.dev.msv/msv-core/2011.1/bundle/4f15b36d8e8f8e792b415a97b430bd2f53b5bf57/msv-core-2011.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.java.dev.msv/msv-core/2011.1/source/3c6737a392b7e9fa50adfba00fa4a1fdf4547e7e/msv-core-2011.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="neethi-3.0.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.neethi/neethi/3.0.2/bundle/129d23d29de183eafe787b9566c2d0bbb8eab47a/neethi-3.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.neethi/neethi/3.0.2/source/5a42b7ebc7342aac6e259bb9ab066a1072ecd1cf/neethi-3.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="not-yet-commons-ssl-0.3.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/ca.juliusdavies/not-yet-commons-ssl/0.3.9/jar/e20f0960c000681c91d00de846a43cf2051b8f69/not-yet-commons-ssl-0.3.9.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/ca.juliusdavies/not-yet-commons-ssl/0.3.9/source/5a5be43f32001f28c0db16a25ffd5824e4ff8fee/not-yet-commons-ssl-0.3.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="oauth-20100527">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.oauth.core/oauth/20100527/jar/a84c5331e225bc25a5a288db328048d6b1bb6fd5/oauth-20100527.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.oauth.core/oauth/20100527/source/77528b5b523803cd44917fec25e193fff061c780/oauth-20100527-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="oauth-provider-20100527">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.oauth.core/oauth-provider/20100527/jar/165bfc97e63e5af8e052a47f4dee832ce06bf7d7/oauth-provider-20100527.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/net.oauth.core/oauth-provider/20100527/source/6bc662aa46348458db50328cd2f99661044f0c5c/oauth-provider-20100527-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="opensaml-2.5.1-1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.opensaml/opensaml/2.5.1-1/jar/9736dcbe852dda3ce263a9c6e33579cd5af203e5/opensaml-2.5.1-1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.opensaml/opensaml/2.5.1-1/source/a77c716cf87da96016f4135a066d56da0575a864/opensaml-2.5.1-1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="openws-1.4.2-1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.opensaml/openws/1.4.2-1/jar/c835fd5214632ed4befbca23dd42e062e80ceb85/openws-1.4.2-1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.opensaml/openws/1.4.2-1/source/81a8c304200fa545f73bc26906cdc522b3754ef0/openws-1.4.2-1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="policy-2.3.1">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.ws/policy/2.3.1/jar/ae9bfce521aab950d13d4447acec0bc1efc5c9e8/policy-2.3.1.jar!/" />
@@ -576,6 +1486,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.ws/policy/2.3.1/source/e19f3671f23738841ece1553b84f58f327cc9082/policy-2.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="relaxngDatatype-20020414">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/relaxngDatatype/relaxngDatatype/20020414/jar/de7952cecd05b65e0e4370cc93fc03035175eef5/relaxngDatatype-20020414.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/relaxngDatatype/relaxngDatatype/20020414/source/863be85fb568c771ce2f59a5ff48e1cd3f3ad587/relaxngDatatype-20020414-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="resolver-20050927">
@@ -587,22 +1506,20 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.org.apache.xml.internal/resolver/20050927/source/d3947d1939aef70373b88e24576cff05062ca42e/resolver-20050927-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="rest">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="rest_api-1.0">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.rest/rest_api/1.0/jar/57fd77f6dd49cb084389fc60ba3c7ad288f7c794/rest_api-1.0.jar!/" />
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.rest/rest_api/1.0/jar/d1dbfb315baa049b61b876adc0fda6c14d9f4e44/rest_api-1.0.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="rest_clientWrapper-1.0">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="rest_util-1.0">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.rest/rest_util/1.0/jar/5b10a4e93b56530341ba155fbaa901403a0e928f/rest_util-1.0.jar!/" />
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics.ace.rest/rest_util/1.0/jar/adf36fa0179296f543e1f964b72fdcad51c4ee5/rest_util-1.0.jar!/" />
       </CLASSES>
       <JAVADOC />
@@ -617,6 +1534,24 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.messaging.saaj/saaj-impl/1.3.21/source/7695dbfdb5a5a38fff0f35032b9de86909c06541/saaj-impl-1.3.21-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="slf4j-api-1.7.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/slf4j-api/1.7.5/jar/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/slf4j-api/1.7.5/source/654135274d4c27132ea208a4ec07f344bdb83bcb/slf4j-api-1.7.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="slf4j-jdk14-1.7.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/slf4j-jdk14/1.7.5/jar/33cf4abac351aa45dd130d31a1e7e33fbbba4762/slf4j-jdk14-1.7.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/slf4j-jdk14/1.7.5/source/f0c40bff1c02d8d1c3ef73453aebd3a7e3d6f41b/slf4j-jdk14-1.7.5-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="snakeyaml-1.6">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.yaml/snakeyaml/1.6/jar/a1e23e31c424d566ee27382e373d73a28fdabd88/snakeyaml-1.6.jar!/" />
@@ -624,6 +1559,87 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.yaml/snakeyaml/1.6/source/ad2f59fe7bbbf758ee5f7282de133f18d5d3eda3/snakeyaml-1.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="spring-aop-3.0.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-aop/3.0.7.RELEASE/jar/e52176ba360e47d132bbc80dc144a916dd75eee7/spring-aop-3.0.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-aop/3.0.7.RELEASE/source/feff9b02e66e8de037d05f32b4a961b8b53eb693/spring-aop-3.0.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="spring-asm-3.0.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-asm/3.0.7.RELEASE/jar/cadd0ed7b1aeea0c2858ada0d6397e8423aad6a3/spring-asm-3.0.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-asm/3.0.7.RELEASE/source/30152fb33f5f7ca7a410dbd139857685ed67988b/spring-asm-3.0.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="spring-beans-3.0.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-beans/3.0.7.RELEASE/jar/5915c3eee8dc193b19b648719d653439c57fc0d8/spring-beans-3.0.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-beans/3.0.7.RELEASE/source/aa62a32a51e13a2ddf54f7a705a9921d8fcd7d09/spring-beans-3.0.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="spring-context-3.0.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-context/3.0.7.RELEASE/jar/e0072743c5c485e0b36a8fce109dcd5c08c5323f/spring-context-3.0.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-context/3.0.7.RELEASE/source/dbfc275d26fe2ce29767ccbaa1b2245df7fa325d/spring-context-3.0.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="spring-core-3.0.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-core/3.0.7.RELEASE/jar/2c90825834a037aab6f6a71bbd05d81680832c49/spring-core-3.0.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-core/3.0.7.RELEASE/source/ed3b044e7107205ab134a539e922510ec72c4636/spring-core-3.0.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="spring-expression-3.0.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-expression/3.0.7.RELEASE/jar/61999bb2e1e5f7a1c13e91a58761c48dc1d71cf9/spring-expression-3.0.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-expression/3.0.7.RELEASE/source/8f34eb890274c931967a8327f19998e96971e377/spring-expression-3.0.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="spring-jms-3.0.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-jms/3.0.7.RELEASE/jar/1647b17010e96c713f589ec1b0265556443db00e/spring-jms-3.0.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-jms/3.0.7.RELEASE/source/a8b56d7faaffb545cccd6879561c3cc11e6cf56c/spring-jms-3.0.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="spring-tx-3.0.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-tx/3.0.7.RELEASE/jar/c340bf8606f6bf235bc1277d25315df1abe51c31/spring-tx-3.0.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-tx/3.0.7.RELEASE/source/79194ce07a854e95767080806b4ea3327e2a438d/spring-tx-3.0.7.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="spring-web-3.0.7.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-web/3.0.7.RELEASE/jar/879efa009384def7ff8aba72a8d3e2fac7de770f/spring-web-3.0.7.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-web/3.0.7.RELEASE/source/9ae34e2686041abb4b30768c9494a796600d93d4/spring-web-3.0.7.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="stax-api-1.0-2">
@@ -671,10 +1687,14 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.testng/testng/6.8.1/source/a7f60cd283d77e9b6f0269ba53b832752f9e0de5/testng-6.8.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="unresolved dependency - com.appdynamics.ace.cli CommandFramework 1">
-      <CLASSES />
+    <library name="velocity-1.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.velocity/velocity/1.7/jar/2ceb567b8f3f21118ecdec129fe1271dbc09aa7a/velocity-1.7.jar!/" />
+      </CLASSES>
       <JAVADOC />
-      <SOURCES />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.velocity/velocity/1.7/source/eb11eb70171ed64842b2e5216d5904e21ed162ac/velocity-1.7-sources.jar!/" />
+      </SOURCES>
     </library>
     <library name="woodstox-core-asl-4.1.2">
       <CLASSES>
@@ -683,6 +1703,85 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.woodstox/woodstox-core-asl/4.1.2/source/73cb83331943df48d787b19078593d350453d391/woodstox-core-asl-4.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="woodstox-core-asl-4.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.woodstox/woodstox-core-asl/4.2.0/jar/7a3784c65cfa5c0553f31d000b43346feb1f4ee3/woodstox-core-asl-4.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.woodstox/woodstox-core-asl/4.2.0/source/2e9abd72e63aa7a3842ff1d65451d4e2a38d1221/woodstox-core-asl-4.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="wsdl4j-1.6.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/wsdl4j/wsdl4j/1.6.3/jar/6d106a6845a3d3477a1560008479312888e94f2f/wsdl4j-1.6.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/wsdl4j/wsdl4j/1.6.3/source/cd1f9241025a8456a07bcf6df4a3c1826d59555c/wsdl4j-1.6.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="wss4j-1.6.12">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.ws.security/wss4j/1.6.12/bundle/7b0b0bff7ba3a47ecf0dcd2d565946ba958da28a/wss4j-1.6.12.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.ws.security/wss4j/1.6.12/source/6507ed28cc93570df9b8988bcf5d1f7b05abf2bf/wss4j-1.6.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="xml-resolver-1.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/xml-resolver/xml-resolver/1.2/jar/3d0f97750b3a03e0971831566067754ba4bfd68c/xml-resolver-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/xml-resolver/xml-resolver/1.2/source/6b72432ea1c5296783007365bb7c9a6b39dfb730/xml-resolver-1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="xmlbeans-2.6.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.xmlbeans/xmlbeans/2.6.0/jar/29e80d2dd51f9dcdef8f9ffaee0d4dc1c9bbfc87/xmlbeans-2.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="xmlschema-core-2.0.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.ws.xmlschema/xmlschema-core/2.0.3/bundle/4058ca983dd275363bd454393e1889c2ba978c74/xmlschema-core-2.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.ws.xmlschema/xmlschema-core/2.0.3/source/1bc1e7817d4bfd12de7f18c9e9c7136141050bdb/xmlschema-core-2.0.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="xmlsec-1.5.5">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.santuario/xmlsec/1.5.5/bundle/34fe8ba5a842243afe1df6ca89ef43acded4ebca/xmlsec-1.5.5.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.santuario/xmlsec/1.5.5/source/44fa29a3e744bc06fe13b42d16a269dc4eb53868/xmlsec-1.5.5-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="xmltooling-1.3.2-1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.opensaml/xmltooling/1.3.2-1/jar/6446e9ac7e90667d6883ac583c402601dec75e34/xmltooling-1.3.2-1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.opensaml/xmltooling/1.3.2-1/source/880dfd13402b56b74724b5a845f256a634b49a07/xmltooling-1.3.2-1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="xsdlib-2010.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.msv.datatype.xsd/xsdlib/2010.1/bundle/1af8eae22f03005f9d2f54f696d9461dfeeee6db/xsdlib-2010.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.msv.datatype.xsd/xsdlib/2010.1/source/b7bb53dd169e11510573c9f34e645ff316e28cfc/xsdlib-2010.1-sources.jar!/" />
       </SOURCES>
     </library>
   </component>
