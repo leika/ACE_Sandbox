@@ -1,0 +1,13 @@
+apply plugin: "java"
+
+dependencies {
+    compile  "com.appdynamics.ace.rest:rest_util:1.0"
+
+
+}
+
+
+
+
+
+

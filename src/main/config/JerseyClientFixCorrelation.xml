@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<activities>
+    <producer>
+        <instrumentation>
+            <class-name>com.sun.jersey.client.urlconnection.URLConnectionClientHandler</class-name>
+            <method-name>_invoke</method-name>
+            <match-type>MATCHES_CLASS</match-type>
+            <method-parameter-types>com.sun.jersey.api.client.ClientRequest</method-parameter-types>
+        </instrumentation>
+        <identifiers>
+            <identifier name="EX">
+                <name>CallBS</name>
+                <data-gatherer-type>POSITION</data-gatherer-type>
+                <position>0</position>
+
+                
+                <!--
+                <transformer-type>USER_DEFINED_NAME</transformer-type>
+                <user-defined-name>ddd</user-defined-name>
+-->
+                
+                      <getter-chain>getURI()</getter-chain>
+                      <transformer-type>GETTER_METHODS</transformer-type>
+                 
+            </identifier>
+        </identifiers>
+        <correlation>
+            <payload-pointer>
+                <data-gatherer-type>POSITION</data-gatherer-type>
+                <position>0</position>
+                <transformer-type>GETTER_METHODS</transformer-type>
+                <getter-chain>getHeaders</getter-chain>
+            </payload-pointer>
+            <payload-operation>
+                <access-type>method</access-type>
+                <param-types>java.lang.String,java.lang.Object</param-types>
+                <access-method>putSingle</access-method>
+            </payload-operation>
+        </correlation>
+    </producer>
+    
+</activities>
