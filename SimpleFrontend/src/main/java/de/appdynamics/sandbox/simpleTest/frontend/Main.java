@@ -12,6 +12,8 @@ import de.appdynamics.sandbox.simpleTest.frontend.jobs.*;
  */
 public class Main {
     public static void main(String[] args) {
+
+
         try {
 
             CommandlineExecution cle = new CommandlineExecution("Sandbox");
@@ -24,6 +26,7 @@ public class Main {
             addBasicLoad(c);
             addTCPFullLoad(c);
             addWebserviceLoad(c);
+            addAsyncLoad(c);
 
 
 
@@ -43,6 +46,10 @@ public class Main {
             addBasicLoad(c);
             addTCPSimpleLoad(c);
 
+            cle.addCommand(c = new SandboxExecution("StartAsync"));
+            addBasicLoad(c);
+            addAsyncLoad(c);
+
 
 
 
@@ -55,6 +62,11 @@ public class Main {
 
 
 
+    }
+
+    private static void addAsyncLoad(SandboxExecution c) throws Exception {
+        c.addJob(new AsyncCallback("SimpleAsync",5,30,45,true));
+        c.addJob(new AsyncCallback("SimpleAsyncDirectReturn",5,50,150,false,true));
     }
 
     private static void addWebserviceLoad(SandboxExecution c) throws Exception {
