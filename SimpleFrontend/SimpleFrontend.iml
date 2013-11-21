@@ -168,7 +168,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" exported="" scope="RUNTIME" name="rest" level="project" />
+    <orderEntry type="library" exported="" name="agent-api-3.7.11" level="project" />
   </component>
 </module>
 

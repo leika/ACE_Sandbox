@@ -233,6 +233,13 @@
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.activemq/activemq-openwire-legacy/5.8.0/source/b18d38f2ca547056de69dbbcc70978c9b1b7e86e/activemq-openwire-legacy-5.8.0-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="agent-api-3.7.11">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics/agent-api/3.7.11/jar/6e751cf60a62a06f187d7c767c414f622ffb9e00/agent-api-3.7.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="antlr-2.7.7">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/antlr/antlr/2.7.7/jar/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar!/" />

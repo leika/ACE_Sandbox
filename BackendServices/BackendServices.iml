@@ -51,7 +51,6 @@
     <orderEntry type="library" exported="" name="mimepull-1.9.3" level="project" />
     <orderEntry type="library" exported="" name="stax-ex-1.7.1" level="project" />
     <orderEntry type="library" exported="" name="jackson-core-asl-1.9.2" level="project" />
-    <orderEntry type="module" module-name="BackendServices_API" exported="" />
   </component>
 </module>
 
