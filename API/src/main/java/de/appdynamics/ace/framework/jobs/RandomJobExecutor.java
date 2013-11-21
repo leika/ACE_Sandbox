@@ -79,6 +79,9 @@ public class RandomJobExecutor implements JobExecutor {
         StringBuffer erg = new StringBuffer("JOBS:\n--------\n");
         for (JobDescription desc : _jobs) {
             erg.append(desc.getExcecutionCount())
+                    .append("(")
+                    .append(desc.getAverageTime())
+                    .append(" ms)")
                     .append("  : ")
                     .append(desc.getJob().getName())
                     .append("  (")
@@ -190,7 +193,10 @@ public class RandomJobExecutor implements JobExecutor {
                     long currentNano = System.nanoTime();
 
                     JobResult jr = j.getJob().call();
-                    j.executed();
+
+                    long usedMs = (System.nanoTime()-currentNano)/1000000;
+
+                    j.executed(usedMs);
 
                     for ( ProgressCallback cb : _callbacks) {
                         try {
@@ -199,7 +205,9 @@ public class RandomJobExecutor implements JobExecutor {
 
                     }
 
-                    long usedMs = (System.nanoTime()-currentNano)/1000000;
+
+
+
                     try {
                         if ((_delay-usedMs)>0) Thread.sleep(_delay-usedMs);
                     } catch (InterruptedException e) {

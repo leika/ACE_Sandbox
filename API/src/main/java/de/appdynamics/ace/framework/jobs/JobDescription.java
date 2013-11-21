@@ -11,6 +11,7 @@ public class JobDescription {
     private int _weight = 1;
     private Job _job;
     private int _count;
+    private double _averageTime;
 
     public JobDescription(Job job, int i) {
         _job = job;
@@ -40,5 +41,25 @@ public class JobDescription {
 
     public String toString() {
         return _job.getName() + "[W:"+getWeight()+"]  Executed "+getExcecutionCount()+" times";
+    }
+
+    public void setAverageTime(double averageTime) {
+        _averageTime = averageTime;
+    }
+
+    public double getAverageTime() {
+        return _averageTime;
+    }
+
+    public void executed(long usedMs) {
+
+        if (_count == 0) setAverageTime(usedMs);
+        else {
+            double totalTime = (getAverageTime()*_count) + usedMs;
+            setAverageTime(totalTime/(_count +1));
+        }
+        executed();
+
+
     }
 }
