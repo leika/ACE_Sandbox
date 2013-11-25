@@ -34,17 +34,6 @@ task runFrontend(type: JavaExec) {
 }
 
 
-task runFrontendInstrumented(type: JavaExec) {
-    description="Run Frontend TEST with Agent"
-    classpath = sourceSets.main.runtimeClasspath
-    jvmArgs   = applicationDefaultJvmArgs
-    jvmArgs += "-javaagent:$appAgentHome/javaagent.jar=uniqueID=FrontendNode"
-    jvmArgs += "-Dappdynamics.agent.applicationName=$appName"
-    jvmArgs += "-Dappdynamics.agent.tierName=Frontend"
-    jvmArgs += "-Dappdynamics.agent.nodeName=Plain"
-
-    main = project.mainClassName
-}
 
 
 build.dependsOn installApp

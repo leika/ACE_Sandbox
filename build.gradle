@@ -27,6 +27,9 @@ allprojects
             maven {
                 url "https://raw.github.com/Appdynamics/artifact-library/master/repo/"
             }
+        maven {
+            url "http://nexus.apmcentral.org/nexus/content/repositories/aceDeploy/"
+        }
 
     }
 
@@ -45,6 +48,29 @@ allprojects
 
 }
 
+configurations {
+    agentBinary
+    dynamicServices
+}
+
+dependencies {
+    agentBinary "com.appdynamics.agent:AppServerAgent:3.7.11.2@zip"
+    dynamicServices "com.appdynamics.agent.services:GenericInterceptor:3.7.11.2@jar"
+    dynamicServices "com.appdynamics.agent.services:ScanThreadsForBT:3.7.11.2@jar"
+    dynamicServices "com.appdynamics.agent.services:SocketTrace:3.7.11.2@jar"
+    dynamicServices "com.appdynamics.agent.services:ThreadProfiler:3.7.11.2@jar"
+}
+
+task installServices(type:Copy) {
+    from configurations.dynamicServices
+    into "build/sandbox/services"
+}
+task installAgent (type: Copy){
+    configurations.agentBinary.filter { it.toString().endsWith(".zip") }.each{
+        from zipTree(it)
+    }
+    into 'build/sandbox/agent'
+}
 
 task fullInstall () {
 
@@ -75,10 +101,10 @@ task fullInstall () {
             into "build/sandbox/TCPBackend"
         }
 
-        copy {
-            from appAgentHome
-            into "build/sandbox/agent"
-        }
+//        copy {
+//            from appAgentHome
+//            into "build/sandbox/agent"
+//        }
     }
 
 }
@@ -88,7 +114,7 @@ task fullInstall () {
 fullInstall.dependsOn(":SimpleFrontend:installApp")
 fullInstall.dependsOn(":BackendServices:deployToJetty")
 fullInstall.dependsOn(":TCPBackend:installApp")
-
+fullInstall.dependsOn( installAgent)
 
 build.dependsOn(fullInstall);
 
