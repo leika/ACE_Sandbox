@@ -234,9 +234,7 @@
       </SOURCES>
     </library>
     <library name="agent-api-3.7.11">
-      <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.appdynamics/agent-api/3.7.11/jar/6e751cf60a62a06f187d7c767c414f622ffb9e00/agent-api-3.7.11.jar!/" />
-      </CLASSES>
+      <CLASSES />
       <JAVADOC />
       <SOURCES />
     </library>
@@ -1082,6 +1080,13 @@
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.jackson/jackson-xc/1.9.2/source/da7f7691b0838830a76e4b4cbc2ba8a1fcc21ffa/jackson-xc-1.9.2-sources.jar!/" />
       </SOURCES>
+    </library>
+    <library name="javaagent-3.7.11">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../maven/private-artifact-library/repo/com/appdynamics/javaagent/3.7.11/javaagent-3.7.11.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
     <library name="javax.annotation-api-1.2-b03">
       <CLASSES>
