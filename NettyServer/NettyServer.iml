@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="ACE_TstApp" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -18,6 +18,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: junit-4.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: testng-6.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: bsh-2.0b4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: netty-3.9.0.Final" level="project" />
   </component>
 </module>
 

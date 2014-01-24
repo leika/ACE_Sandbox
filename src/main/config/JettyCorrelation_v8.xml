@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<activities>
+    <producer>
+        <instrumentation>
+            <class-name>org.eclipse.jetty.client.HttpClient</class-name>
+            <method-name>send</method-name>
+            <match-type>MATCHES_CLASS</match-type>
+        </instrumentation>
+
+        <identifiers>
+            <identifier  name="EX22">
+                <name>CustomExitPoint</name>
+                <data-gatherer-type>POSITION</data-gatherer-type>
+                <position>0</position>
+                <transformer-type>GETTER_METHODS</transformer-type>
+                <getter-chain>this.getAddress()</getter-chain>
+            </identifier>
+        </identifiers>
+        <correlation>
+            <payload-pointer>
+                <data-gatherer-type>POSITION</data-gatherer-type>
+                <position>0</position>
+                <transformer-type>GETTER_METHODS</transformer-type>
+                <getter-chain>this</getter-chain>
+            </payload-pointer>
+            <payload-operation>
+                <access-type>method</access-type>
+                <param-types>java.lang.String,java.lang.String</param-types>
+                <access-method>setRequestHeader</access-method>
+            </payload-operation>
+        </correlation>
+    </producer>
+</activities>

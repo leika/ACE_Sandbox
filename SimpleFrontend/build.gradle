@@ -22,6 +22,9 @@ dependencies{
 
     compile 'com.appdynamics:agent-api:3.7.11'
     compile 'org.apache.cxf:apache-cxf:2.7.7'
+    compile 'org.eclipse.jetty:jetty-client:8.1.+'
+
+    compile project(":NettyServer")
 }
 
 

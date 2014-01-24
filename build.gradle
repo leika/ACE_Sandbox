@@ -100,6 +100,10 @@ task fullInstall () {
             from project(":TCPBackend").file("build/install/TCPBackend")
             into "build/sandbox/TCPBackend"
         }
+        copy {
+            from project(":NettyServer").file("build/install/NettyServer")
+            into "build/sandbox/NettyServer"
+        }
 
 //        copy {
 //            from appAgentHome
@@ -114,6 +118,8 @@ task fullInstall () {
 fullInstall.dependsOn(":SimpleFrontend:installApp")
 fullInstall.dependsOn(":BackendServices:deployToJetty")
 fullInstall.dependsOn(":TCPBackend:installApp")
+fullInstall.dependsOn(":NettyServer:installApp")
+
 fullInstall.dependsOn( installAgent)
 
 build.dependsOn(fullInstall);

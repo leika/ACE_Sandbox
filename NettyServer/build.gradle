@@ -1,0 +1,13 @@
+apply plugin: "application"
+
+
+// Specify the Application settings
+applicationName = 'NettyServer'
+mainClassName = "de.appdynamics.ace.netty.server.Server"
+applicationDefaultJvmArgs = ["-Xms50m","-Xmx50m"]
+
+
+dependencies {
+
+    compile 'io.netty:netty:3.9.0.Final'
+}

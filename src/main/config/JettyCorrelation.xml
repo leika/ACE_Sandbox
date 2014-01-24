@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<activities>
+    <producer>
+        <instrumentation>
+            <class-name>org.eclipse.jetty.client.HttpRequest</class-name>
+            <method-name>send</method-name>
+            <match-type>MATCHES_CLASS</match-type>
+        </instrumentation>
+
+        <identifiers>
+            <identifier name="EX12">
+                <data-gatherer-type>INVOKED</data-gatherer-type>
+                <getter-chain>this.getURI().getHost()</getter-chain>
+                <user-defined-name>BackServer</user-defined-name>
+                <transformer-type>GETTER_METHODS</transformer-type>
+            </identifier>
+        </identifiers>
+        <correlation>
+            <payload-pointer>
+                <data-gatherer-type>INVOKED</data-gatherer-type>            
+                <transformer-type>GETTER_METHODS</transformer-type>
+                <getter-chain>this</getter-chain>
+            </payload-pointer>
+            <payload-operation>
+                <access-type>method</access-type>
+                <param-types>java.lang.String,java.lang.String</param-types>
+                <access-method>header</access-method>
+            </payload-operation>
+        </correlation>
+    </producer>
+</activities>

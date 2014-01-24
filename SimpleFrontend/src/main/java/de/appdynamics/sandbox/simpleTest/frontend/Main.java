@@ -37,6 +37,15 @@ public class Main {
             addBasicLoad(c);
             addWebserviceLoad(c);
 
+
+            cle.addCommand(c = new SandboxExecution("StartNetty"));
+            addBasicLoad(c);
+            addNettyLoad(c);
+
+            cle.addCommand(c = new SandboxExecution("StartWebJetty"));
+            addBasicLoad(c);
+            addJettyWebLoad(c);
+
             cle.addCommand(c = new SandboxExecution("StartTCP"));
             addBasicLoad(c);
             addTCPFullLoad(c);
@@ -61,6 +70,16 @@ public class Main {
 
 
 
+
+    }
+
+    private static void addNettyLoad(SandboxExecution c) throws Exception {
+        c.addJob(new NettyClientCall()).setWeight(15);
+
+    }
+
+    private static void addJettyWebLoad(SandboxExecution c) throws Exception {
+        c.addJob(new JettyWebserviceWorld()).setWeight(15);
 
     }
 
