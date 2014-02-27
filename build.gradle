@@ -28,7 +28,7 @@ allprojects
                 url "https://raw.github.com/Appdynamics/artifact-library/master/repo/"
             }
         maven {
-            url "http://nexus.apmcentral.org/nexus/content/repositories/aceDeploy/"
+            url "file:///vlab/maven/private-artifact-library/repo/"
         }
 
     }
@@ -54,11 +54,11 @@ configurations {
 }
 
 dependencies {
-    agentBinary "com.appdynamics.agent:AppServerAgent:3.7.11.2@zip"
-    dynamicServices "com.appdynamics.agent.services:GenericInterceptor:3.7.11.2@jar"
-    dynamicServices "com.appdynamics.agent.services:ScanThreadsForBT:3.7.11.2@jar"
-    dynamicServices "com.appdynamics.agent.services:SocketTrace:3.7.11.2@jar"
-    dynamicServices "com.appdynamics.agent.services:ThreadProfiler:3.7.11.2@jar"
+    agentBinary "com.appdynamics:AppServerAgent:3.7.15@zip"
+    dynamicServices "com.appdynamics.agent.services:genericInterceptor:3.7.15@jar"
+    dynamicServices "com.appdynamics.agent.services:ScanThreadsForBTs:3.7.15@jar"
+    dynamicServices "com.appdynamics.agent.services:SocketTrace:3.7.15@jar"
+    dynamicServices "com.appdynamics.agent.services:ThreadProfiler:3.7.15@jar"
 }
 
 task installServices(type:Copy) {
