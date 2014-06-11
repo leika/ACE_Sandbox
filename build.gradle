@@ -54,7 +54,7 @@ configurations {
 }
 
 dependencies {
-    agentBinary "com.appdynamics:AppServerAgent:3.7.15@zip"
+    agentBinary "com.appdynamics:AppServerAgent:3.8.2@zip"
     dynamicServices "com.appdynamics.agent.services:genericInterceptor:3.7.15@jar"
     dynamicServices "com.appdynamics.agent.services:ScanThreadsForBTs:3.7.15@jar"
     dynamicServices "com.appdynamics.agent.services:SocketTrace:3.7.15@jar"
@@ -113,6 +113,12 @@ task fullInstall () {
 
 }
 
+task packageApp(type:Zip, dependsOn:fullInstall) {
+    from ('build/sandbox') {
+        include "**/*"
+    }
+    
+}
 
 
 fullInstall.dependsOn(":SimpleFrontend:installApp")
