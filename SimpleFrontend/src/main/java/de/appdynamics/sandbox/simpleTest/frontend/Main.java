@@ -27,6 +27,7 @@ public class Main {
             addTCPFullLoad(c);
             addWebserviceLoad(c);
             addAsyncLoad(c);
+            addAPILoad(c);
 
 
 
@@ -59,6 +60,13 @@ public class Main {
             addBasicLoad(c);
             addAsyncLoad(c);
 
+            cle.addCommand(c = new SandboxExecution("StartApiTest"));
+            addBasicLoad(c);
+            addAPILoad(c);
+
+            cle.addCommand(c = new SandboxExecution("StartBTExplosion"));
+            addBTExplosion(c);
+
 
 
 
@@ -69,6 +77,25 @@ public class Main {
         }
 
 
+
+
+    }
+
+
+    private static void addBTExplosion(SandboxExecution c) throws Exception {
+
+        c.addJob(new BTExplodeBusinessJob("BTExplode1", 12, 280, 20, new RandomNamePrefix (10)));
+        c.addJob(new BTExplodeBusinessJob("BTExplode2", 12, 280, 20, new RandomNamePrefix (10)));
+
+
+    }
+
+    private static void addAPILoad(SandboxExecution c) throws Exception {
+        c.addJob( new APIJob("MyAPITransaction",true));
+        c.addJob( new APIJob("MyAPITransaction2",true));
+        c.addJob( new APIJob("MyAPITransaction3",true));
+        c.addJob( new APIJob("MyAPITransaction4",true));
+        c.addJob( new APIJob("MyNewNonAPITransaction",false));
 
 
     }
