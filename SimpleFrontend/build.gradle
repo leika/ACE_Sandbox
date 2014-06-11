@@ -20,7 +20,8 @@ dependencies{
     compile 'com.appdynamics.ace.cli:CommandFramework:1.1'
     compile 'org.apache.httpcomponents:httpclient:4.0'
 
-    compile 'com.appdynamics:agent-api:3.7.11'
+    compile 'com.appdynamics:agent-api:3.8.2'
+    compile 'com.appdynamics:javaagent:3.8.2'
     compile 'org.apache.cxf:apache-cxf:2.7.7'
     compile 'org.eclipse.jetty:jetty-client:8.1.+'
 

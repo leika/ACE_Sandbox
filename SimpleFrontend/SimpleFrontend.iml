@@ -36,7 +36,6 @@
     <orderEntry type="library" exported="" name="Gradle: jaxb-impl-2.2.3-1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: mina-core-2.0.7" level="project" />
     <orderEntry type="library" exported="" name="Gradle: spring-core-3.0.7.RELEASE" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: agent-api-3.7.11" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cxf-rt-bindings-soap-2.7.7" level="project" />
     <orderEntry type="library" exported="" name="Gradle: relaxngDatatype-20020414" level="project" />
     <orderEntry type="library" exported="" name="Gradle: spring-web-3.0.7.RELEASE" level="project" />
@@ -160,11 +159,13 @@
     <orderEntry type="library" exported="" name="Gradle: log4j-over-slf4j-1.6.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jackson-xc-1.9.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cxf-bundle-2.7.7" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: jetty-util-8.1.14.v20131031" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: jetty-http-8.1.14.v20131031" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: jetty-io-8.1.14.v20131031" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: jetty-client-8.1.14.v20131031" level="project" />
     <orderEntry type="module" module-name="NettyServer" exported="" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-client-8.1.15.v20140411" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-util-8.1.15.v20140411" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-io-8.1.15.v20140411" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-http-8.1.15.v20140411" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: agent-api-3.8.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: javaagent-3.8.2" level="project" />
   </component>
 </module>
 
