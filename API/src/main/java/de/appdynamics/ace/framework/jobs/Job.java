@@ -11,7 +11,7 @@ import java.util.concurrent.Callable;
  */
 public abstract class Job implements Callable<JobResult> {
 
-    ThreadLocal<JobResult> _localResult = new ThreadLocal<JobResult>();
+    protected ThreadLocal<JobResult> _localResult = new ThreadLocal<JobResult>();
 
     public JobResult call()  {
          try {
@@ -28,7 +28,7 @@ public abstract class Job implements Callable<JobResult> {
 
     }
 
-    protected abstract String callJob();
+    protected abstract String callJob() throws Throwable;
 
 
     public abstract String getName();

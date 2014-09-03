@@ -64,6 +64,10 @@ public class Main {
             addBasicLoad(c);
             addAPILoad(c);
 
+            cle.addCommand(c = new SandboxExecution("StartExceptionTest"));
+            addBasicLoad(c);
+            addExceptionLoad(c);
+
             cle.addCommand(c = new SandboxExecution("StartBTExplosion"));
             addBTExplosion(c);
 
@@ -77,6 +81,13 @@ public class Main {
         }
 
 
+
+
+    }
+
+    private static void addExceptionLoad(SandboxExecution c) throws Exception {
+        c.addJob(new BTExceptionJob("Exception 1"));
+        c.addJob(new BTExceptionJob("Exception 2"));
 
 
     }
