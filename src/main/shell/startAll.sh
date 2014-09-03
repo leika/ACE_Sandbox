@@ -7,6 +7,7 @@ mkdir -p $DIR/logs
 
 export controllerHost=localhost
 export controllerPort=8080
+export AGENTDIR=$AGENTDIR
 
 
 appName="ACESandbox"
@@ -21,7 +22,7 @@ fi
 
 $DIR/startWeb.sh
 
-export JAVA_OPTS="-javaagent:$DIR/agent/javaagent.jar
+export JAVA_OPTS="-javaagent:$AGENTDIR/javaagent.jar
 -Dappdynamics.agent.applicationName=$appName
 -Dappdynamics.agent.tierName=BackServer
 -Dappdynamics.controller.hostName=$controllerHost
@@ -38,7 +39,7 @@ $DIR/TCPBackend/bin/TCPBackend start -port 8989 >> $DIR/logs/tcpBackend.log &
 
 backend_pid=$!
 
-export JAVA_OPTS="-javaagent:$DIR/agent/javaagent.jar
+export JAVA_OPTS="-javaagent:$AGENTDIR/javaagent.jar
 -Dappdynamics.agent.applicationName=$appName
 -Dappdynamics.controller.hostName=$controllerHost
 -Dappdynamics.controller.port=$controllerPort
@@ -54,7 +55,7 @@ $DIR/TCPBackend/bin/TCPBackend start -port 8999 >> $DIR/logs/tcpBackend2.log &
 
 backend2_pid=$!
 
-export JAVA_OPTS="-javaagent:$DIR/agent/javaagent.jar
+export JAVA_OPTS="-javaagent:$AGENTDIR/javaagent.jar
 -Dappdynamics.agent.applicationName=$appName
 -Dappdynamics.controller.hostName=$controllerHost
 -Dappdynamics.controller.port=$controllerPort
