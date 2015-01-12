@@ -34,6 +34,9 @@ public class Main {
             cle.addCommand(c = new SandboxExecution("StartSimple"));
             addBasicLoad(c);
 
+            cle.addCommand(c = new SandboxExecution("StartComplexGetter"));
+            addXMLGetterLoad(c);
+
             cle.addCommand(c = new SandboxExecution("StartWeb"));
             addBasicLoad(c);
             addWebserviceLoad(c);
@@ -71,6 +74,8 @@ public class Main {
             cle.addCommand(c = new SandboxExecution("StartBTExplosion"));
             addBTExplosion(c);
 
+            cle.addCommand(c = new SandboxExecution("StartRMISimple"));
+            addRMISimple(c);
 
 
 
@@ -81,6 +86,34 @@ public class Main {
         }
 
 
+
+
+    }
+
+    private static void addRMISimple(SandboxExecution c) throws Exception {
+        //addBasicLoad(c);
+        c.addJob(new RMIJob(9099));
+
+
+
+    }
+
+    private static void addXMLGetterLoad(SandboxExecution c) throws Exception {
+        c.addJob(new SimpleGetterJob("<?xml version='1.0' encoding='UTF-8' ?>\n" +
+                "<data type = 'update' xmlns:xu='http://www.satelliteinfo.co.uk/feed/update'  xmlns:hrdg='http://www.satelliteinfo.co.uk/feed/master/hrdg'  xmlns='http://www.satelliteinfo.co.uk/feed/master/hrdg' id= 'UKDGES4G4U88' name= 'event' mnem= 'ES' timestamp= '1415192288107' date= '2014-11-05' group='SDS' category= 'DG' source= 'sportsData' country= 'UK' sportcode= 'BP' route= '4D41494E' version= '1.2.15' >\n" +
+                "<xu:ups-at select=\"/hrdg:data/hrdg:meeting[@code='4G4U8']/hrdg:event[@id='2101661']\" >\n" +
+                "\n" +
+                "<xu:at name='progressCode'>H</xu:at>\n" +
+                "<xu:at name='pmsg'>HARE RUNNING</xu:at>\n" +
+                "</xu:ups-at>\n" +
+                "</data>",12,80,20));
+        c.addJob(new SimpleGetterJob( "<?xml version='1.0' encoding='UTF-8' ?>\n" +
+                "<data type = 'update' xmlns:xu='http://www.satelliteinfo.co.uk/feed/update'  xmlns:hrdg='http://www.satelliteinfo.co.uk/feed/master/hrdg'  xmlns='http://www.satelliteinfo.co.uk/feed/master/hrdg' id= 'AUHRRS4G4W2' name= 'result' mnem= 'RS' timestamp= '1415184910355' date= '2014-11-05' group='SDS' category= 'HR' source= 'sportsData' country= 'AU' sportcode= 'LA' route= '454D50' version= '1.2.15' >\n" +
+                "    <xu:ups-at select=\"/hrdg:data/hrdg:meeting[@code='4G4W2']/hrdg:event[@id='2101582']/hrdg:result[@id='3527485']\" >\n" +
+                "        <xu:at name='message'>OFF</xu:at>\n" +
+                "        <xu:at name='statuscode'>O</xu:at>\n" +
+                "    </xu:ups-at>\n" +
+                "</data>",12,80,20));
 
 
     }

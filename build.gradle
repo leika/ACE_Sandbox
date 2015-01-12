@@ -54,11 +54,11 @@ configurations {
 }
 
 dependencies {
-    agentBinary "com.appdynamics:AppServerAgent:3.8.2@zip"
-    dynamicServices "com.appdynamics.agent.services:genericInterceptor:3.7.15@jar"
-    dynamicServices "com.appdynamics.agent.services:ScanThreadsForBTs:3.7.15@jar"
-    dynamicServices "com.appdynamics.agent.services:SocketTrace:3.7.15@jar"
-    dynamicServices "com.appdynamics.agent.services:ThreadProfiler:3.7.15@jar"
+    agentBinary "com.appdynamics:AppServerAgent:3.9.6@zip"
+    dynamicServices "com.appdynamics.agent.services:genericInterceptor:3.9.3@jar"
+    dynamicServices "com.appdynamics.agent.services:ScanThreadsForBTs:3.9.3@jar"
+    dynamicServices "com.appdynamics.agent.services:SocketTrace:3.9.3@jar"
+    dynamicServices "com.appdynamics.agent.services:ThreadProfiler:3.9.3@jar"
 }
 
 task installServices(type:Copy) {
@@ -101,6 +101,10 @@ task fullInstall () {
             into "build/sandbox/TCPBackend"
         }
         copy {
+            from project(":RMIBackend").file("build/install/RMIBackend")
+            into "build/sandbox/RMIBackend"
+        }
+        copy {
             from project(":NettyServer").file("build/install/NettyServer")
             into "build/sandbox/NettyServer"
         }
@@ -124,6 +128,7 @@ task packageApp(type:Zip, dependsOn:fullInstall) {
 fullInstall.dependsOn(":SimpleFrontend:installApp")
 fullInstall.dependsOn(":BackendServices:deployToJetty")
 fullInstall.dependsOn(":TCPBackend:installApp")
+fullInstall.dependsOn(":RMIBackend:installApp")
 fullInstall.dependsOn(":NettyServer:installApp")
 
 fullInstall.dependsOn( installAgent)

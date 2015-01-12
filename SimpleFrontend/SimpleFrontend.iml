@@ -160,12 +160,13 @@
     <orderEntry type="library" exported="" name="Gradle: jackson-xc-1.9.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: cxf-bundle-2.7.7" level="project" />
     <orderEntry type="module" module-name="NettyServer" exported="" />
-    <orderEntry type="library" exported="" name="Gradle: jetty-client-8.1.15.v20140411" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: jetty-util-8.1.15.v20140411" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: jetty-io-8.1.15.v20140411" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: jetty-http-8.1.15.v20140411" level="project" />
     <orderEntry type="library" exported="" name="Gradle: agent-api-3.8.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: javaagent-3.8.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-client-8.1.16.v20140903" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-util-8.1.16.v20140903" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-io-8.1.16.v20140903" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jetty-http-8.1.16.v20140903" level="project" />
+    <orderEntry type="module" module-name="RMIBackend" exported="" />
+    <orderEntry type="library" exported="" name="Gradle: javaagent-3.9.5" level="project" />
   </component>
 </module>
 
